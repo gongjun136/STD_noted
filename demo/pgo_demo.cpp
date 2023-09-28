@@ -217,7 +217,6 @@ int main(int argc, char **argv) {
           e.g. if src_key_frame_id 5 with sub frames 51~60 triggle loop with
                 tar_key_frame_id 1 with sub frames 11~20, add connection between
           each sub frame, 51-11, 52-12,...,60-20.
-
         */
         int sub_frame_num = config_setting.sub_frame_num_;
         for (size_t j = 1; j <= sub_frame_num; j++) {

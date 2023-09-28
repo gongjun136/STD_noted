@@ -1,0 +1,1229 @@
+Log file created at: 2023/09/22 15:37:21
+Running on machine: gj
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0922 15:37:21.246738 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126956
+I0922 15:37:21.279100 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25918
+I0922 15:37:21.450520 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127058
+I0922 15:37:21.468066 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26049
+I0922 15:37:21.782052 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127195
+I0922 15:37:21.805318 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25983
+I0922 15:37:21.986517 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127198
+I0922 15:37:22.005446 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25759
+I0922 15:37:22.156842 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127142
+I0922 15:37:22.177496 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25684
+I0922 15:37:22.315171 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126999
+I0922 15:37:22.333209 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25729
+I0922 15:37:22.467761 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126987
+I0922 15:37:22.489003 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25951
+I0922 15:37:22.631913 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127070
+I0922 15:37:22.654820 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26185
+I0922 15:37:22.784667 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126989
+I0922 15:37:22.803486 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26536
+I0922 15:37:22.938072 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126880
+I0922 15:37:22.958027 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26973
+I0922 15:37:23.098177 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126924
+I0922 15:37:23.116601 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27481
+I0922 15:37:23.805610 22399 STDesc.cpp:391] [Description] planes size:1072
+I0922 15:37:24.790881 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126802
+I0922 15:37:24.811998 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27571
+I0922 15:37:24.955919 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126678
+I0922 15:37:24.978420 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27739
+I0922 15:37:25.132302 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126557
+I0922 15:37:25.155618 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27717
+I0922 15:37:25.304414 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126461
+I0922 15:37:25.323613 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27764
+I0922 15:37:25.471935 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126353
+I0922 15:37:25.491963 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27746
+I0922 15:37:25.642642 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126129
+I0922 15:37:25.663035 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27666
+I0922 15:37:25.811517 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126298
+I0922 15:37:25.830950 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27540
+I0922 15:37:25.981876 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126217
+I0922 15:37:26.003741 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27243
+I0922 15:37:26.156123 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126224
+I0922 15:37:26.177286 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26911
+I0922 15:37:26.323403 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126315
+I0922 15:37:26.342904 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27073
+I0922 15:37:27.051606 22399 STDesc.cpp:391] [Description] planes size:1094
+I0922 15:37:28.194278 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126212
+I0922 15:37:28.214707 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26950
+I0922 15:37:28.366855 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126402
+I0922 15:37:28.392181 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26669
+I0922 15:37:28.539470 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126494
+I0922 15:37:28.558007 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26444
+I0922 15:37:28.713385 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126564
+I0922 15:37:28.732395 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25838
+I0922 15:37:28.899475 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126663
+I0922 15:37:28.925604 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25150
+I0922 15:37:29.085472 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126779
+I0922 15:37:29.108983 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24407
+I0922 15:37:29.264658 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126816
+I0922 15:37:29.287495 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24049
+I0922 15:37:29.434839 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126907
+I0922 15:37:29.457029 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23720
+I0922 15:37:29.611991 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127025
+I0922 15:37:29.631692 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23409
+I0922 15:37:29.786038 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127145
+I0922 15:37:29.809893 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22941
+I0922 15:37:30.452445 22399 STDesc.cpp:391] [Description] planes size:1062
+I0922 15:37:31.472916 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127160
+I0922 15:37:31.493336 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22402
+I0922 15:37:31.645859 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127264
+I0922 15:37:31.664427 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21822
+I0922 15:37:31.817138 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127335
+I0922 15:37:31.838269 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21224
+I0922 15:37:31.993629 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127351
+I0922 15:37:32.016402 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20873
+I0922 15:37:32.161442 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127361
+I0922 15:37:32.179443 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20385
+I0922 15:37:32.327353 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127276
+I0922 15:37:32.346844 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20134
+I0922 15:37:32.497274 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127214
+I0922 15:37:32.519055 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20123
+I0922 15:37:32.671576 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127061
+I0922 15:37:32.691763 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19999
+I0922 15:37:32.853114 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126842
+I0922 15:37:32.875147 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20064
+I0922 15:37:33.019731 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126362
+I0922 15:37:33.037174 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20170
+I0922 15:37:33.577184 22399 STDesc.cpp:391] [Description] planes size:901
+I0922 15:37:34.287750 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125998
+I0922 15:37:34.304669 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20400
+I0922 15:37:34.463944 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125348
+I0922 15:37:34.485965 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20470
+I0922 15:37:34.649971 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124559
+I0922 15:37:34.672772 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20657
+I0922 15:37:34.840330 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124069
+I0922 15:37:34.859273 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20587
+I0922 15:37:35.029315 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123174
+I0922 15:37:35.048177 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20512
+I0922 15:37:35.207804 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122343
+I0922 15:37:35.227916 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20632
+I0922 15:37:35.384897 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121987
+I0922 15:37:35.405102 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20984
+I0922 15:37:35.556419 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121559
+I0922 15:37:35.576073 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20987
+I0922 15:37:35.721145 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121895
+I0922 15:37:35.741034 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20704
+I0922 15:37:35.892827 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122107
+I0922 15:37:35.911556 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20525
+I0922 15:37:36.476565 22399 STDesc.cpp:391] [Description] planes size:867
+I0922 15:37:37.230042 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122225
+I0922 15:37:37.253384 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20359
+I0922 15:37:37.393934 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121972
+I0922 15:37:37.412927 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20009
+I0922 15:37:37.557200 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121807
+I0922 15:37:37.578390 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19633
+I0922 15:37:37.720438 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121697
+I0922 15:37:37.738960 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19756
+I0922 15:37:37.903014 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122084
+I0922 15:37:37.927938 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19948
+I0922 15:37:38.082612 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122591
+I0922 15:37:38.102494 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20112
+I0922 15:37:38.261665 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122953
+I0922 15:37:38.280278 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20130
+I0922 15:37:38.438289 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122885
+I0922 15:37:38.459909 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20146
+I0922 15:37:38.616194 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122618
+I0922 15:37:38.640180 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20170
+I0922 15:37:38.791357 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122402
+I0922 15:37:38.809624 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20122
+I0922 15:37:39.348243 22399 STDesc.cpp:391] [Description] planes size:770
+I0922 15:37:40.065779 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122374
+I0922 15:37:40.086091 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20198
+I0922 15:37:40.228137 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123061
+I0922 15:37:40.249442 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20154
+I0922 15:37:40.393193 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123402
+I0922 15:37:40.412708 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20320
+I0922 15:37:40.559384 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123450
+I0922 15:37:40.581418 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20443
+I0922 15:37:40.762210 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123204
+I0922 15:37:40.785290 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20593
+I0922 15:37:40.921351 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122626
+I0922 15:37:40.941695 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20571
+I0922 15:37:41.085916 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122188
+I0922 15:37:41.107534 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20841
+I0922 15:37:41.249414 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121942
+I0922 15:37:41.273347 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20979
+I0922 15:37:41.404812 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121617
+I0922 15:37:41.423436 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21105
+I0922 15:37:41.560074 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121140
+I0922 15:37:41.589300 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21549
+I0922 15:37:42.113217 22399 STDesc.cpp:391] [Description] planes size:739
+I0922 15:37:42.871871 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120966
+I0922 15:37:42.893263 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21901
+I0922 15:37:43.030918 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121029
+I0922 15:37:43.053294 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22153
+I0922 15:37:43.186509 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120751
+I0922 15:37:43.207230 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22589
+I0922 15:37:43.345917 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120547
+I0922 15:37:43.367210 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22868
+I0922 15:37:43.503044 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120083
+I0922 15:37:43.523298 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22994
+I0922 15:37:43.659655 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120458
+I0922 15:37:43.682945 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23204
+I0922 15:37:43.827628 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120642
+I0922 15:37:43.850404 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23473
+I0922 15:37:43.989723 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120732
+I0922 15:37:44.010758 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23668
+I0922 15:37:44.148555 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120846
+I0922 15:37:44.169015 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23716
+I0922 15:37:44.312865 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121004
+I0922 15:37:44.335157 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23896
+I0922 15:37:44.934931 22399 STDesc.cpp:391] [Description] planes size:829
+I0922 15:37:45.748447 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121107
+I0922 15:37:45.772153 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24023
+I0922 15:37:45.917383 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121459
+I0922 15:37:45.938776 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24266
+I0922 15:37:46.086386 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122040
+I0922 15:37:46.107923 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24060
+I0922 15:37:46.249720 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122305
+I0922 15:37:46.273435 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23852
+I0922 15:37:46.413203 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122832
+I0922 15:37:46.434624 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23588
+I0922 15:37:46.575249 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123155
+I0922 15:37:46.597635 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23465
+I0922 15:37:46.738365 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123400
+I0922 15:37:46.760857 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23120
+I0922 15:37:46.905048 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123470
+I0922 15:37:46.924670 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23002
+I0922 15:37:47.072597 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123889
+I0922 15:37:47.096765 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23105
+I0922 15:37:47.244935 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124046
+I0922 15:37:47.271556 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23281
+I0922 15:37:47.879082 22399 STDesc.cpp:391] [Description] planes size:860
+I0922 15:37:48.752516 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124173
+I0922 15:37:48.778395 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23414
+I0922 15:37:48.921803 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124532
+I0922 15:37:48.941200 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23614
+I0922 15:37:49.087010 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124895
+I0922 15:37:49.110029 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23770
+I0922 15:37:49.261335 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125143
+I0922 15:37:49.288576 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23842
+I0922 15:37:49.432178 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125525
+I0922 15:37:49.458348 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23800
+I0922 15:37:49.597048 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125764
+I0922 15:37:49.621346 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23818
+I0922 15:37:49.763617 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126023
+I0922 15:37:49.790583 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23567
+I0922 15:37:49.935945 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126151
+I0922 15:37:49.961028 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23379
+I0922 15:37:50.108078 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126273
+I0922 15:37:50.126468 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23251
+I0922 15:37:50.273635 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126335
+I0922 15:37:50.297377 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23207
+I0922 15:37:50.879285 22399 STDesc.cpp:391] [Description] planes size:820
+I0922 15:37:51.705081 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126492
+I0922 15:37:51.726598 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23067
+I0922 15:37:51.870689 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126675
+I0922 15:37:51.894066 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23022
+I0922 15:37:52.042011 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126687
+I0922 15:37:52.065042 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23074
+I0922 15:37:52.212132 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126803
+I0922 15:37:52.232216 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23013
+I0922 15:37:52.380415 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126773
+I0922 15:37:52.405771 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23269
+I0922 15:37:52.544157 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126816
+I0922 15:37:52.575209 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23524
+I0922 15:37:52.723337 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126968
+I0922 15:37:52.745110 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23713
+I0922 15:37:52.888911 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126991
+I0922 15:37:52.909381 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23851
+I0922 15:37:53.060647 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127058
+I0922 15:37:53.088465 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24234
+I0922 15:37:53.232023 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127084
+I0922 15:37:53.255142 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24645
+I0922 15:37:53.838464 22399 STDesc.cpp:391] [Description] planes size:821
+I0922 15:37:54.773252 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127054
+I0922 15:37:54.797595 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24735
+I0922 15:37:54.937345 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127119
+I0922 15:37:54.962014 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25048
+I0922 15:37:55.103197 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127160
+I0922 15:37:55.124330 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25129
+I0922 15:37:55.272482 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127181
+I0922 15:37:55.294414 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25229
+I0922 15:37:55.444006 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127158
+I0922 15:37:55.465170 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25276
+I0922 15:37:55.609231 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127216
+I0922 15:37:55.628962 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25353
+I0922 15:37:55.774468 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127226
+I0922 15:37:55.798326 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25582
+I0922 15:37:55.941095 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127173
+I0922 15:37:55.966693 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25585
+I0922 15:37:56.115249 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127266
+I0922 15:37:56.139806 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25587
+I0922 15:37:56.281754 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127335
+I0922 15:37:56.306700 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25667
+I0922 15:37:56.938277 22399 STDesc.cpp:391] [Description] planes size:853
+I0922 15:37:57.792603 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127478
+I0922 15:37:57.815192 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25805
+I0922 15:37:57.961069 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127452
+I0922 15:37:57.988718 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26057
+I0922 15:37:58.133462 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127434
+I0922 15:37:58.159415 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26138
+I0922 15:37:58.320766 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127324
+I0922 15:37:58.341603 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26220
+I0922 15:37:58.485541 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127341
+I0922 15:37:58.509585 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26399
+I0922 15:37:58.658936 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127331
+I0922 15:37:58.682971 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26766
+I0922 15:37:58.829500 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127207
+I0922 15:37:58.855393 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26666
+I0922 15:37:59.002113 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127070
+I0922 15:37:59.025805 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26838
+I0922 15:37:59.168530 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127000
+I0922 15:37:59.192787 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26996
+I0922 15:37:59.345561 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126904
+I0922 15:37:59.371274 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27035
+I0922 15:38:00.036237 22399 STDesc.cpp:391] [Description] planes size:922
+I0922 15:38:00.833969 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126778
+I0922 15:38:00.858235 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27146
+I0922 15:38:01.051400 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126733
+I0922 15:38:01.074203 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27241
+I0922 15:38:01.217811 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126713
+I0922 15:38:01.238725 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27182
+I0922 15:38:01.383023 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126666
+I0922 15:38:01.410269 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:27200
+I0922 15:38:01.562646 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126529
+I0922 15:38:01.589685 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26911
+I0922 15:38:01.735872 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126488
+I0922 15:38:01.759548 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26623
+I0922 15:38:01.903007 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126346
+I0922 15:38:01.925076 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26687
+I0922 15:38:02.074290 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126414
+I0922 15:38:02.096491 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26510
+I0922 15:38:02.237124 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126252
+I0922 15:38:02.260599 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:26394
+I0922 15:38:02.406508 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126162
+I0922 15:38:02.429208 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25908
+I0922 15:38:03.112354 22399 STDesc.cpp:391] [Description] planes size:899
+I0922 15:38:03.874791 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126194
+I0922 15:38:03.898764 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25710
+I0922 15:38:04.044075 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126274
+I0922 15:38:04.069914 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25441
+I0922 15:38:04.203611 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126509
+I0922 15:38:04.227334 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:25333
+I0922 15:38:04.388502 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126719
+I0922 15:38:04.411262 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24852
+I0922 15:38:04.569694 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126709
+I0922 15:38:04.595407 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24266
+I0922 15:38:04.738890 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126761
+I0922 15:38:04.762061 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23849
+I0922 15:38:04.909224 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126754
+I0922 15:38:04.932893 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23702
+I0922 15:38:05.083019 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126645
+I0922 15:38:05.105508 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23283
+I0922 15:38:05.249019 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126535
+I0922 15:38:05.271409 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23047
+I0922 15:38:05.431283 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126256
+I0922 15:38:05.458076 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22924
+I0922 15:38:06.074864 22399 STDesc.cpp:391] [Description] planes size:784
+I0922 15:38:06.817730 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125766
+I0922 15:38:06.838449 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22597
+I0922 15:38:06.983532 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125585
+I0922 15:38:07.009318 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22312
+I0922 15:38:07.145598 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125485
+I0922 15:38:07.169044 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22102
+I0922 15:38:07.317490 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125216
+I0922 15:38:07.338558 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22237
+I0922 15:38:07.489673 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125056
+I0922 15:38:07.512595 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22193
+I0922 15:38:07.649248 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124865
+I0922 15:38:07.673779 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22112
+I0922 15:38:07.809685 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124575
+I0922 15:38:07.831564 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22074
+I0922 15:38:07.979749 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124027
+I0922 15:38:08.003576 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21682
+I0922 15:38:08.146940 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124185
+I0922 15:38:08.174434 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21052
+I0922 15:38:08.320219 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124546
+I0922 15:38:08.339295 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20541
+I0922 15:38:08.890363 22399 STDesc.cpp:391] [Description] planes size:652
+I0922 15:38:09.598505 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125217
+I0922 15:38:09.620592 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19804
+I0922 15:38:09.782929 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125542
+I0922 15:38:09.806540 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19317
+I0922 15:38:09.952399 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125757
+I0922 15:38:09.972277 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18896
+I0922 15:38:10.115409 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125914
+I0922 15:38:10.135196 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18595
+I0922 15:38:10.286507 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125933
+I0922 15:38:10.308969 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18203
+I0922 15:38:10.467454 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125937
+I0922 15:38:10.491750 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17983
+I0922 15:38:10.638010 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125969
+I0922 15:38:10.660604 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17962
+I0922 15:38:10.803908 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125646
+I0922 15:38:10.824096 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17846
+I0922 15:38:10.970405 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125474
+I0922 15:38:10.992617 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17890
+I0922 15:38:11.144510 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125403
+I0922 15:38:11.167990 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17791
+I0922 15:38:11.635197 22399 STDesc.cpp:391] [Description] planes size:618
+I0922 15:38:12.325323 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125136
+I0922 15:38:12.351047 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17864
+I0922 15:38:12.533916 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124842
+I0922 15:38:12.558662 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17887
+I0922 15:38:12.705718 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124766
+I0922 15:38:12.724608 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18026
+I0922 15:38:12.869441 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124902
+I0922 15:38:12.891700 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18449
+I0922 15:38:13.034963 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124827
+I0922 15:38:13.059026 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18904
+I0922 15:38:13.206310 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124786
+I0922 15:38:13.226161 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19042
+I0922 15:38:13.369577 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124453
+I0922 15:38:13.391214 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19213
+I0922 15:38:13.531029 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124439
+I0922 15:38:13.557955 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19355
+I0922 15:38:13.698731 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124527
+I0922 15:38:13.722187 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19534
+I0922 15:38:13.861227 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124425
+I0922 15:38:13.885253 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19834
+I0922 15:38:14.340283 22399 STDesc.cpp:391] [Description] planes size:576
+I0922 15:38:15.081465 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124362
+I0922 15:38:15.101670 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20182
+I0922 15:38:15.240096 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124446
+I0922 15:38:15.261801 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20442
+I0922 15:38:15.465932 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124563
+I0922 15:38:15.487177 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20438
+I0922 15:38:15.735630 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124953
+I0922 15:38:15.756855 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19981
+I0922 15:38:15.910265 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125278
+I0922 15:38:15.939626 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19803
+I0922 15:38:16.086882 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125390
+I0922 15:38:16.118211 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19778
+I0922 15:38:16.276208 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125576
+I0922 15:38:16.297261 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19895
+I0922 15:38:16.451849 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125676
+I0922 15:38:16.476704 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19791
+I0922 15:38:16.639724 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125655
+I0922 15:38:16.661185 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19765
+I0922 15:38:16.810464 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125812
+I0922 15:38:16.829823 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19933
+I0922 15:38:17.328821 22399 STDesc.cpp:391] [Description] planes size:566
+I0922 15:38:18.099555 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125737
+I0922 15:38:18.120610 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20262
+I0922 15:38:18.266459 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125698
+I0922 15:38:18.287160 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20674
+I0922 15:38:18.436539 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125767
+I0922 15:38:18.461884 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21103
+I0922 15:38:18.611294 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125950
+I0922 15:38:18.632539 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21233
+I0922 15:38:18.779795 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126250
+I0922 15:38:18.805783 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21333
+I0922 15:38:18.946205 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126425
+I0922 15:38:18.970839 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21222
+I0922 15:38:19.113297 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126512
+I0922 15:38:19.135186 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21033
+I0922 15:38:19.281723 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126525
+I0922 15:38:19.304984 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20604
+I0922 15:38:19.448118 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126607
+I0922 15:38:19.470796 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20086
+I0922 15:38:19.620366 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126770
+I0922 15:38:19.640156 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19734
+I0922 15:38:20.138036 22399 STDesc.cpp:391] [Description] planes size:620
+I0922 15:38:20.968071 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126794
+I0922 15:38:20.990095 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19515
+I0922 15:38:21.148911 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126823
+I0922 15:38:21.175680 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18923
+I0922 15:38:21.320935 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126763
+I0922 15:38:21.342075 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18612
+I0922 15:38:21.488525 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126572
+I0922 15:38:21.507218 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18314
+I0922 15:38:21.667351 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126369
+I0922 15:38:21.689036 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18171
+I0922 15:38:21.836166 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126226
+I0922 15:38:21.862305 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18199
+I0922 15:38:22.016891 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126244
+I0922 15:38:22.039448 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18104
+I0922 15:38:22.188153 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126121
+I0922 15:38:22.210343 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18011
+I0922 15:38:22.377401 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125920
+I0922 15:38:22.399964 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18062
+I0922 15:38:22.544066 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125585
+I0922 15:38:22.563323 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17503
+I0922 15:38:23.028455 22399 STDesc.cpp:391] [Description] planes size:575
+I0922 15:38:23.812588 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124754
+I0922 15:38:23.830843 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16915
+I0922 15:38:23.974098 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124252
+I0922 15:38:23.993022 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16166
+I0922 15:38:24.138072 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123448
+I0922 15:38:24.161005 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15669
+I0922 15:38:24.309087 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123338
+I0922 15:38:24.327780 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15400
+I0922 15:38:24.472525 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122943
+I0922 15:38:24.492408 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:14955
+I0922 15:38:24.764463 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124461
+I0922 15:38:24.785351 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:14960
+I0922 15:38:24.926741 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124589
+I0922 15:38:24.945883 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:14976
+I0922 15:38:25.086499 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124523
+I0922 15:38:25.105073 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15104
+I0922 15:38:25.243021 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124704
+I0922 15:38:25.263828 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15424
+I0922 15:38:25.415006 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125429
+I0922 15:38:25.435070 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15467
+I0922 15:38:25.812844 22399 STDesc.cpp:391] [Description] planes size:477
+I0922 15:38:26.394825 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125789
+I0922 15:38:26.413895 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15538
+I0922 15:38:26.566259 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126241
+I0922 15:38:26.586139 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15557
+I0922 15:38:26.726409 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126545
+I0922 15:38:26.745663 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15457
+I0922 15:38:26.893996 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126858
+I0922 15:38:26.913508 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15535
+I0922 15:38:27.060990 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127018
+I0922 15:38:27.080019 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15764
+I0922 15:38:27.222301 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127198
+I0922 15:38:27.240703 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15717
+I0922 15:38:27.391534 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127350
+I0922 15:38:27.411938 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16020
+I0922 15:38:27.549430 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127360
+I0922 15:38:27.574373 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16102
+I0922 15:38:27.721524 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127284
+I0922 15:38:27.741953 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16383
+I0922 15:38:27.888160 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127303
+I0922 15:38:27.907112 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16693
+I0922 15:38:28.299881 22399 STDesc.cpp:391] [Description] planes size:517
+I0922 15:38:28.942188 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127336
+I0922 15:38:28.963946 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16939
+I0922 15:38:29.116124 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127345
+I0922 15:38:29.135044 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17130
+I0922 15:38:29.290817 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127210
+I0922 15:38:29.308225 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17362
+I0922 15:38:29.457613 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127062
+I0922 15:38:29.476960 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17648
+I0922 15:38:29.618968 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126919
+I0922 15:38:29.640908 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17975
+I0922 15:38:29.781515 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126691
+I0922 15:38:29.801008 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18146
+I0922 15:38:29.937644 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126499
+I0922 15:38:29.959223 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18382
+I0922 15:38:30.095849 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126505
+I0922 15:38:30.119817 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18509
+I0922 15:38:30.254768 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126435
+I0922 15:38:30.285009 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18536
+I0922 15:38:30.438577 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126162
+I0922 15:38:30.457995 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18529
+I0922 15:38:30.894459 22399 STDesc.cpp:391] [Description] planes size:594
+I0922 15:38:31.618297 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125308
+I0922 15:38:31.638088 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18774
+I0922 15:38:31.774904 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123980
+I0922 15:38:31.795835 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18868
+I0922 15:38:31.939014 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123468
+I0922 15:38:31.959161 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19095
+I0922 15:38:32.098732 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122491
+I0922 15:38:32.120031 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19494
+I0922 15:38:32.251294 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122254
+I0922 15:38:32.276049 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19719
+I0922 15:38:32.445814 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122619
+I0922 15:38:32.467934 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19362
+I0922 15:38:32.615492 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122159
+I0922 15:38:32.634968 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19298
+I0922 15:38:32.765631 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121794
+I0922 15:38:32.788053 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19677
+I0922 15:38:32.955502 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122951
+I0922 15:38:32.979425 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19461
+I0922 15:38:33.121006 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123538
+I0922 15:38:33.140609 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19831
+I0922 15:38:33.629799 22399 STDesc.cpp:391] [Description] planes size:649
+I0922 15:38:34.294216 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124157
+I0922 15:38:34.313215 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20279
+I0922 15:38:34.446945 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124918
+I0922 15:38:34.471870 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20778
+I0922 15:38:34.615597 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125623
+I0922 15:38:34.639604 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21106
+I0922 15:38:34.779269 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126084
+I0922 15:38:34.805649 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21166
+I0922 15:38:34.949764 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126263
+I0922 15:38:34.972425 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21405
+I0922 15:38:35.115020 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126407
+I0922 15:38:35.141371 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21399
+I0922 15:38:35.277025 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126580
+I0922 15:38:35.300464 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21230
+I0922 15:38:35.446635 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126759
+I0922 15:38:35.473664 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21088
+I0922 15:38:35.618057 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126716
+I0922 15:38:35.639879 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20904
+I0922 15:38:35.781824 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126990
+I0922 15:38:35.804481 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20750
+I0922 15:38:36.316495 22399 STDesc.cpp:391] [Description] planes size:555
+I0922 15:38:36.945117 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127225
+I0922 15:38:36.973600 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20329
+I0922 15:38:37.112354 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127235
+I0922 15:38:37.136482 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20046
+I0922 15:38:37.275436 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127210
+I0922 15:38:37.296262 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19695
+I0922 15:38:37.434027 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127098
+I0922 15:38:37.458777 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19266
+I0922 15:38:37.610384 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127028
+I0922 15:38:37.630244 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18937
+I0922 15:38:37.772142 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127128
+I0922 15:38:37.794588 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18635
+I0922 15:38:37.931947 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127051
+I0922 15:38:37.953601 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18360
+I0922 15:38:38.118449 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126887
+I0922 15:38:38.138442 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18168
+I0922 15:38:38.276566 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126937
+I0922 15:38:38.297475 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17973
+I0922 15:38:38.435251 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127063
+I0922 15:38:38.456558 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17735
+I0922 15:38:38.926834 22399 STDesc.cpp:391] [Description] planes size:487
+I0922 15:38:39.515059 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127150
+I0922 15:38:39.536140 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17705
+I0922 15:38:39.745093 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127205
+I0922 15:38:39.769124 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17658
+I0922 15:38:39.903136 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127265
+I0922 15:38:39.923532 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17889
+I0922 15:38:40.064916 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127210
+I0922 15:38:40.086104 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17895
+I0922 15:38:40.233181 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127110
+I0922 15:38:40.255182 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18062
+I0922 15:38:40.403817 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127173
+I0922 15:38:40.425037 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18098
+I0922 15:38:40.620448 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127049
+I0922 15:38:40.638142 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18372
+I0922 15:38:40.780311 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127024
+I0922 15:38:40.802265 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18552
+I0922 15:38:40.943753 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126967
+I0922 15:38:40.964709 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18744
+I0922 15:38:41.109624 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126683
+I0922 15:38:41.129482 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19017
+I0922 15:38:41.560410 22399 STDesc.cpp:391] [Description] planes size:493
+I0922 15:38:42.172312 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126660
+I0922 15:38:42.193064 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19395
+I0922 15:38:42.342623 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126513
+I0922 15:38:42.364776 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19711
+I0922 15:38:42.541075 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126385
+I0922 15:38:42.566664 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19924
+I0922 15:38:42.712436 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126299
+I0922 15:38:42.731779 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20098
+I0922 15:38:42.886555 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126399
+I0922 15:38:42.908100 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20283
+I0922 15:38:43.044358 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125819
+I0922 15:38:43.066512 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20561
+I0922 15:38:43.198292 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125288
+I0922 15:38:43.222409 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20772
+I0922 15:38:43.372941 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124813
+I0922 15:38:43.395671 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21077
+I0922 15:38:43.542369 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124263
+I0922 15:38:43.574136 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21372
+I0922 15:38:43.720505 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125412
+I0922 15:38:43.744141 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21395
+I0922 15:38:44.258437 22399 STDesc.cpp:391] [Description] planes size:544
+I0922 15:38:45.150835 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125598
+I0922 15:38:45.176959 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21356
+I0922 15:38:45.324198 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124494
+I0922 15:38:45.347255 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21405
+I0922 15:38:45.608606 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124646
+I0922 15:38:45.628949 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21434
+I0922 15:38:45.827137 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125375
+I0922 15:38:45.848210 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21271
+I0922 15:38:45.987367 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125793
+I0922 15:38:46.010533 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21196
+I0922 15:38:46.150772 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125825
+I0922 15:38:46.180115 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21087
+I0922 15:38:46.328859 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125925
+I0922 15:38:46.355038 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20981
+I0922 15:38:46.516177 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125701
+I0922 15:38:46.543382 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20998
+I0922 15:38:46.691287 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125651
+I0922 15:38:46.714880 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20482
+I0922 15:38:46.853034 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125737
+I0922 15:38:46.877964 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20103
+I0922 15:38:47.396271 22399 STDesc.cpp:391] [Description] planes size:525
+I0922 15:38:48.335454 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125892
+I0922 15:38:48.357043 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19756
+I0922 15:38:48.499009 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125742
+I0922 15:38:48.519742 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19497
+I0922 15:38:48.668715 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125447
+I0922 15:38:48.689359 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19075
+I0922 15:38:48.837329 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125348
+I0922 15:38:48.861701 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18705
+I0922 15:38:48.996707 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125213
+I0922 15:38:49.018306 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18360
+I0922 15:38:49.172920 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124552
+I0922 15:38:49.193766 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18108
+I0922 15:38:49.339747 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125163
+I0922 15:38:49.359916 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17903
+I0922 15:38:49.496286 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125672
+I0922 15:38:49.519379 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17780
+I0922 15:38:49.659467 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124821
+I0922 15:38:49.683558 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17521
+I0922 15:38:49.827775 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124626
+I0922 15:38:49.849278 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17378
+I0922 15:38:50.284935 22399 STDesc.cpp:391] [Description] planes size:447
+I0922 15:38:51.046551 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125178
+I0922 15:38:51.070740 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17136
+I0922 15:38:51.206691 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125708
+I0922 15:38:51.227066 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16914
+I0922 15:38:51.365875 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126239
+I0922 15:38:51.387969 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16834
+I0922 15:38:51.533504 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126627
+I0922 15:38:51.554180 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16573
+I0922 15:38:51.730248 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126867
+I0922 15:38:51.751196 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16349
+I0922 15:38:51.902640 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127136
+I0922 15:38:51.925128 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16277
+I0922 15:38:52.073149 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127210
+I0922 15:38:52.092636 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16109
+I0922 15:38:52.235757 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127271
+I0922 15:38:52.257340 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16119
+I0922 15:38:52.398977 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127359
+I0922 15:38:52.422503 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16205
+I0922 15:38:52.568147 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127315
+I0922 15:38:52.591485 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16286
+I0922 15:38:52.992197 22399 STDesc.cpp:391] [Description] planes size:399
+I0922 15:38:53.854360 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127300
+I0922 15:38:53.875223 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16383
+I0922 15:38:54.014781 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127449
+I0922 15:38:54.036643 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16589
+I0922 15:38:54.177807 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127363
+I0922 15:38:54.196692 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16541
+I0922 15:38:54.344620 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127377
+I0922 15:38:54.366123 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16742
+I0922 15:38:54.613327 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127152
+I0922 15:38:54.634233 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16939
+I0922 15:38:54.774540 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127280
+I0922 15:38:54.795251 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17199
+I0922 15:38:54.938287 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127251
+I0922 15:38:54.959594 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17641
+I0922 15:38:55.111371 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127149
+I0922 15:38:55.131042 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17875
+I0922 15:38:55.283354 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127015
+I0922 15:38:55.304644 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18113
+I0922 15:38:55.445847 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127181
+I0922 15:38:55.472992 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18822
+I0922 15:38:55.879053 22399 STDesc.cpp:391] [Description] planes size:427
+I0922 15:38:56.557096 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127010
+I0922 15:38:56.581691 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19130
+I0922 15:38:56.736713 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127020
+I0922 15:38:56.759245 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19542
+I0922 15:38:56.954291 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127089
+I0922 15:38:56.980078 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20137
+I0922 15:38:57.113987 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126923
+I0922 15:38:57.139626 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20337
+I0922 15:38:57.288856 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127042
+I0922 15:38:57.310945 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19984
+I0922 15:38:57.455250 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127019
+I0922 15:38:57.480446 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19750
+I0922 15:38:57.617525 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126979
+I0922 15:38:57.641379 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19484
+I0922 15:38:57.786280 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126889
+I0922 15:38:57.806684 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18988
+I0922 15:38:57.957055 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127098
+I0922 15:38:57.980106 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18374
+I0922 15:38:58.131513 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127033
+I0922 15:38:58.154635 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17667
+I0922 15:38:58.615794 22399 STDesc.cpp:391] [Description] planes size:447
+I0922 15:38:59.300225 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126980
+I0922 15:38:59.321408 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17458
+I0922 15:38:59.462268 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126856
+I0922 15:38:59.485692 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17550
+I0922 15:38:59.660313 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126644
+I0922 15:38:59.680743 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17379
+I0922 15:38:59.814659 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126607
+I0922 15:38:59.836678 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17308
+I0922 15:38:59.987566 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126598
+I0922 15:39:00.007377 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17357
+I0922 15:39:00.176041 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126762
+I0922 15:39:00.196813 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17489
+I0922 15:39:00.337011 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126899
+I0922 15:39:00.357403 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17360
+I0922 15:39:00.572947 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127074
+I0922 15:39:00.592437 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17070
+I0922 15:39:00.759805 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126716
+I0922 15:39:00.780651 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16923
+I0922 15:39:00.916395 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126663
+I0922 15:39:00.935608 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16816
+I0922 15:39:01.342144 22399 STDesc.cpp:391] [Description] planes size:332
+I0922 15:39:02.078285 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127006
+I0922 15:39:02.098582 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16709
+I0922 15:39:02.236372 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127288
+I0922 15:39:02.258371 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16368
+I0922 15:39:02.410930 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127685
+I0922 15:39:02.430682 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16325
+I0922 15:39:02.569010 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127830
+I0922 15:39:02.590852 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16102
+I0922 15:39:02.738324 22399 place_recognition_kitti.cpp:121] raw pointcloud size:128035
+I0922 15:39:02.759254 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15986
+I0922 15:39:02.908396 22399 place_recognition_kitti.cpp:121] raw pointcloud size:128267
+I0922 15:39:02.927829 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15978
+I0922 15:39:03.069435 22399 place_recognition_kitti.cpp:121] raw pointcloud size:128219
+I0922 15:39:03.091583 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16074
+I0922 15:39:03.238001 22399 place_recognition_kitti.cpp:121] raw pointcloud size:128116
+I0922 15:39:03.260499 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15945
+I0922 15:39:03.426014 22399 place_recognition_kitti.cpp:121] raw pointcloud size:128069
+I0922 15:39:03.446455 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15855
+I0922 15:39:03.601719 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127979
+I0922 15:39:03.623705 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15841
+I0922 15:39:04.002820 22399 STDesc.cpp:391] [Description] planes size:296
+I0922 15:39:04.737658 22399 place_recognition_kitti.cpp:121] raw pointcloud size:128125
+I0922 15:39:04.759548 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15830
+I0922 15:39:04.914978 22399 place_recognition_kitti.cpp:121] raw pointcloud size:128239
+I0922 15:39:04.935479 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15770
+I0922 15:39:05.088882 22399 place_recognition_kitti.cpp:121] raw pointcloud size:128236
+I0922 15:39:05.108705 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15407
+I0922 15:39:05.260957 22399 place_recognition_kitti.cpp:121] raw pointcloud size:128121
+I0922 15:39:05.281414 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15070
+I0922 15:39:05.431957 22399 place_recognition_kitti.cpp:121] raw pointcloud size:128210
+I0922 15:39:05.452950 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:14621
+I0922 15:39:05.618815 22399 place_recognition_kitti.cpp:121] raw pointcloud size:127499
+I0922 15:39:05.636868 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:14349
+I0922 15:39:05.774866 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122157
+I0922 15:39:05.793843 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:13974
+I0922 15:39:05.921991 22399 place_recognition_kitti.cpp:121] raw pointcloud size:116622
+I0922 15:39:05.939030 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:13739
+I0922 15:39:06.118724 22399 place_recognition_kitti.cpp:121] raw pointcloud size:110893
+I0922 15:39:06.135746 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:13111
+I0922 15:39:06.254506 22399 place_recognition_kitti.cpp:121] raw pointcloud size:110974
+I0922 15:39:06.276631 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12797
+I0922 15:39:06.616943 22399 STDesc.cpp:391] [Description] planes size:305
+I0922 15:39:07.104346 22399 place_recognition_kitti.cpp:121] raw pointcloud size:110951
+I0922 15:39:07.121878 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12469
+I0922 15:39:07.247181 22399 place_recognition_kitti.cpp:121] raw pointcloud size:111465
+I0922 15:39:07.270820 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12175
+I0922 15:39:07.397086 22399 place_recognition_kitti.cpp:121] raw pointcloud size:111300
+I0922 15:39:07.415675 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12094
+I0922 15:39:07.550405 22399 place_recognition_kitti.cpp:121] raw pointcloud size:111236
+I0922 15:39:07.567746 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12188
+I0922 15:39:07.698676 22399 place_recognition_kitti.cpp:121] raw pointcloud size:111312
+I0922 15:39:07.716670 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12266
+I0922 15:39:07.851840 22399 place_recognition_kitti.cpp:121] raw pointcloud size:114262
+I0922 15:39:07.873198 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12260
+I0922 15:39:08.010210 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119330
+I0922 15:39:08.028771 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12457
+I0922 15:39:08.174320 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124539
+I0922 15:39:08.192703 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12659
+I0922 15:39:08.330946 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123725
+I0922 15:39:08.351773 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12803
+I0922 15:39:08.491945 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123066
+I0922 15:39:08.512187 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12962
+I0922 15:39:08.813692 22399 STDesc.cpp:391] [Description] planes size:344
+I0922 15:39:09.398744 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123978
+I0922 15:39:09.418810 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:12970
+I0922 15:39:09.605583 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124328
+I0922 15:39:09.624534 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:13026
+I0922 15:39:09.771293 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124510
+I0922 15:39:09.790547 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:13307
+I0922 15:39:09.927392 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124636
+I0922 15:39:09.946396 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:13492
+I0922 15:39:10.099594 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124649
+I0922 15:39:10.121712 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:13776
+I0922 15:39:10.257164 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124808
+I0922 15:39:10.278224 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:13883
+I0922 15:39:10.422014 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125253
+I0922 15:39:10.443207 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:14194
+I0922 15:39:10.597074 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125679
+I0922 15:39:10.616024 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:14643
+I0922 15:39:10.762465 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126089
+I0922 15:39:10.783344 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:14970
+I0922 15:39:10.927208 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126135
+I0922 15:39:10.947531 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15122
+I0922 15:39:11.294006 22399 STDesc.cpp:391] [Description] planes size:359
+I0922 15:39:12.023506 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126310
+I0922 15:39:12.043054 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15478
+I0922 15:39:12.183430 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126370
+I0922 15:39:12.203212 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15737
+I0922 15:39:12.341035 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126482
+I0922 15:39:12.361459 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16207
+I0922 15:39:12.537048 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126544
+I0922 15:39:12.557260 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16609
+I0922 15:39:12.706693 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126564
+I0922 15:39:12.725801 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17321
+I0922 15:39:12.877450 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126553
+I0922 15:39:12.897517 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17741
+I0922 15:39:13.034385 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126666
+I0922 15:39:13.056041 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18319
+I0922 15:39:13.196235 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126500
+I0922 15:39:13.217216 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18750
+I0922 15:39:13.354457 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126600
+I0922 15:39:13.380708 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19243
+I0922 15:39:13.524745 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126741
+I0922 15:39:13.551405 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19905
+I0922 15:39:13.975550 22399 STDesc.cpp:391] [Description] planes size:523
+I0922 15:39:14.782232 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126727
+I0922 15:39:14.805919 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20606
+I0922 15:39:14.953971 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126665
+I0922 15:39:14.981329 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21280
+I0922 15:39:15.120359 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126508
+I0922 15:39:15.143038 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21702
+I0922 15:39:15.300544 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126367
+I0922 15:39:15.323365 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22060
+I0922 15:39:15.482175 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126157
+I0922 15:39:15.509289 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22424
+I0922 15:39:15.655325 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126034
+I0922 15:39:15.680204 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22560
+I0922 15:39:15.819370 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126012
+I0922 15:39:15.842530 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22830
+I0922 15:39:16.018841 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126008
+I0922 15:39:16.041172 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22963
+I0922 15:39:16.183583 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126112
+I0922 15:39:16.208650 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23007
+I0922 15:39:16.349202 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125969
+I0922 15:39:16.377789 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23075
+I0922 15:39:16.914762 22399 STDesc.cpp:391] [Description] planes size:620
+I0922 15:39:17.920325 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125886
+I0922 15:39:17.943024 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23190
+I0922 15:39:18.084009 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125609
+I0922 15:39:18.107412 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23309
+I0922 15:39:18.261770 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125424
+I0922 15:39:18.289808 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23443
+I0922 15:39:18.426769 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125204
+I0922 15:39:18.452046 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23604
+I0922 15:39:18.690301 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125067
+I0922 15:39:18.712664 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23851
+I0922 15:39:18.850445 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124929
+I0922 15:39:18.875665 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23962
+I0922 15:39:19.040769 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124668
+I0922 15:39:19.065593 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23941
+I0922 15:39:19.200009 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124410
+I0922 15:39:19.225041 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24013
+I0922 15:39:19.365237 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124087
+I0922 15:39:19.390384 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23983
+I0922 15:39:19.532174 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123709
+I0922 15:39:19.560341 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24033
+I0922 15:39:20.127928 22399 STDesc.cpp:391] [Description] planes size:640
+I0922 15:39:21.176877 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123432
+I0922 15:39:21.198664 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24051
+I0922 15:39:21.340090 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123145
+I0922 15:39:21.366106 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24049
+I0922 15:39:21.524556 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122695
+I0922 15:39:21.544186 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24010
+I0922 15:39:21.726434 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122300
+I0922 15:39:21.747339 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23865
+I0922 15:39:21.892926 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121914
+I0922 15:39:21.919601 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23771
+I0922 15:39:22.052925 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121787
+I0922 15:39:22.085393 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23765
+I0922 15:39:22.220713 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121465
+I0922 15:39:22.243945 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23632
+I0922 15:39:22.382686 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121181
+I0922 15:39:22.404605 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23524
+I0922 15:39:22.538720 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120931
+I0922 15:39:22.561829 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23316
+I0922 15:39:22.704892 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120543
+I0922 15:39:22.728061 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23131
+I0922 15:39:23.311127 22399 STDesc.cpp:391] [Description] planes size:735
+I0922 15:39:24.455300 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120407
+I0922 15:39:24.480504 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22844
+I0922 15:39:24.754998 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120231
+I0922 15:39:24.778205 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22795
+I0922 15:39:24.918422 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119886
+I0922 15:39:24.939127 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22376
+I0922 15:39:25.089457 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119595
+I0922 15:39:25.112282 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22222
+I0922 15:39:25.249886 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119548
+I0922 15:39:25.273607 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22001
+I0922 15:39:25.409245 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119414
+I0922 15:39:25.427660 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21746
+I0922 15:39:25.569800 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119477
+I0922 15:39:25.594381 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21577
+I0922 15:39:25.729550 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119347
+I0922 15:39:25.755306 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21461
+I0922 15:39:25.891057 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119168
+I0922 15:39:25.917034 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21138
+I0922 15:39:26.048426 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119625
+I0922 15:39:26.075902 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21024
+I0922 15:39:26.622946 22399 STDesc.cpp:391] [Description] planes size:779
+I0922 15:39:27.564169 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119927
+I0922 15:39:27.586728 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20801
+I0922 15:39:27.723691 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120344
+I0922 15:39:27.744964 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20704
+I0922 15:39:27.899243 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121049
+I0922 15:39:27.921084 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20592
+I0922 15:39:28.068229 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121711
+I0922 15:39:28.091429 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20322
+I0922 15:39:28.228909 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122481
+I0922 15:39:28.252296 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20298
+I0922 15:39:28.391944 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123288
+I0922 15:39:28.413861 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20416
+I0922 15:39:28.544957 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123754
+I0922 15:39:28.572206 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20388
+I0922 15:39:28.723647 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124080
+I0922 15:39:28.745110 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20317
+I0922 15:39:28.887624 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124274
+I0922 15:39:28.910837 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20432
+I0922 15:39:29.046644 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124473
+I0922 15:39:29.075515 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20264
+I0922 15:39:29.592443 22399 STDesc.cpp:391] [Description] planes size:675
+I0922 15:39:30.244568 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124760
+I0922 15:39:30.268684 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20316
+I0922 15:39:30.417870 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124903
+I0922 15:39:30.440200 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20125
+I0922 15:39:30.592458 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125161
+I0922 15:39:30.612545 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19879
+I0922 15:39:30.752955 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125380
+I0922 15:39:30.779182 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19856
+I0922 15:39:30.920200 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125527
+I0922 15:39:30.944489 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19618
+I0922 15:39:31.103350 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125648
+I0922 15:39:31.125380 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19613
+I0922 15:39:31.262460 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125742
+I0922 15:39:31.287494 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19381
+I0922 15:39:31.425417 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125752
+I0922 15:39:31.446794 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19490
+I0922 15:39:31.591905 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125913
+I0922 15:39:31.613960 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19558
+I0922 15:39:31.753777 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126044
+I0922 15:39:31.779596 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19604
+I0922 15:39:32.270074 22399 STDesc.cpp:391] [Description] planes size:667
+I0922 15:39:32.887342 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126040
+I0922 15:39:32.906373 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19711
+I0922 15:39:33.048858 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126130
+I0922 15:39:33.076452 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19781
+I0922 15:39:33.216784 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126265
+I0922 15:39:33.240619 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20147
+I0922 15:39:33.388674 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126237
+I0922 15:39:33.410703 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20018
+I0922 15:39:33.550333 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126392
+I0922 15:39:33.576577 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20183
+I0922 15:39:33.745966 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126480
+I0922 15:39:33.771152 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20028
+I0922 15:39:33.928902 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126560
+I0922 15:39:33.953336 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19947
+I0922 15:39:34.097043 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126675
+I0922 15:39:34.119766 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20011
+I0922 15:39:34.256299 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126636
+I0922 15:39:34.283246 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20137
+I0922 15:39:34.422796 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126681
+I0922 15:39:34.445384 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20047
+I0922 15:39:34.938776 22399 STDesc.cpp:391] [Description] planes size:743
+I0922 15:39:35.662029 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126624
+I0922 15:39:35.686241 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19817
+I0922 15:39:35.821604 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126526
+I0922 15:39:35.844350 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19831
+I0922 15:39:35.988163 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126524
+I0922 15:39:36.010900 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19736
+I0922 15:39:36.151887 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126347
+I0922 15:39:36.178092 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19892
+I0922 15:39:36.319486 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126084
+I0922 15:39:36.339340 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20074
+I0922 15:39:36.528828 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126042
+I0922 15:39:36.551173 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20144
+I0922 15:39:36.767721 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126059
+I0922 15:39:36.791613 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20416
+I0922 15:39:36.929857 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125990
+I0922 15:39:36.954494 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20562
+I0922 15:39:37.095976 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125932
+I0922 15:39:37.119923 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20588
+I0922 15:39:37.262256 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125788
+I0922 15:39:37.291481 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20926
+I0922 15:39:37.831689 22399 STDesc.cpp:391] [Description] planes size:785
+I0922 15:39:38.552882 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125339
+I0922 15:39:38.578330 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21034
+I0922 15:39:38.715519 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125200
+I0922 15:39:38.739300 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21176
+I0922 15:39:38.882612 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124712
+I0922 15:39:38.905579 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21490
+I0922 15:39:39.051347 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124334
+I0922 15:39:39.084435 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21887
+I0922 15:39:39.224315 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123984
+I0922 15:39:39.251111 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22116
+I0922 15:39:39.390913 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123691
+I0922 15:39:39.413902 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22321
+I0922 15:39:39.741374 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123670
+I0922 15:39:39.767145 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22555
+I0922 15:39:39.903379 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123495
+I0922 15:39:39.926041 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22761
+I0922 15:39:40.067035 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122906
+I0922 15:39:40.090845 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22724
+I0922 15:39:40.237932 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122080
+I0922 15:39:40.264477 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22743
+I0922 15:39:40.818931 22399 STDesc.cpp:391] [Description] planes size:753
+I0922 15:39:41.518777 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121085
+I0922 15:39:41.544332 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22657
+I0922 15:39:41.683837 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120523
+I0922 15:39:41.707198 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22932
+I0922 15:39:41.842424 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119856
+I0922 15:39:41.865945 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23488
+I0922 15:39:42.002224 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119043
+I0922 15:39:42.025772 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23523
+I0922 15:39:42.156786 22399 place_recognition_kitti.cpp:121] raw pointcloud size:118388
+I0922 15:39:42.182976 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23582
+I0922 15:39:42.323736 22399 place_recognition_kitti.cpp:121] raw pointcloud size:117448
+I0922 15:39:42.349555 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23675
+I0922 15:39:42.523597 22399 place_recognition_kitti.cpp:121] raw pointcloud size:116736
+I0922 15:39:42.545828 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23965
+I0922 15:39:42.678236 22399 place_recognition_kitti.cpp:121] raw pointcloud size:116705
+I0922 15:39:42.703681 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24202
+I0922 15:39:42.833922 22399 place_recognition_kitti.cpp:121] raw pointcloud size:116991
+I0922 15:39:42.862296 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24369
+I0922 15:39:42.997320 22399 place_recognition_kitti.cpp:121] raw pointcloud size:117082
+I0922 15:39:43.021687 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24332
+I0922 15:39:43.612351 22399 STDesc.cpp:391] [Description] planes size:773
+I0922 15:39:44.399823 22399 place_recognition_kitti.cpp:121] raw pointcloud size:117873
+I0922 15:39:44.424557 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24459
+I0922 15:39:44.553751 22399 place_recognition_kitti.cpp:121] raw pointcloud size:118553
+I0922 15:39:44.581880 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24452
+I0922 15:39:44.715121 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119123
+I0922 15:39:44.742425 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24359
+I0922 15:39:44.873744 22399 place_recognition_kitti.cpp:121] raw pointcloud size:119891
+I0922 15:39:44.902202 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24360
+I0922 15:39:45.030421 22399 place_recognition_kitti.cpp:121] raw pointcloud size:120387
+I0922 15:39:45.055017 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24319
+I0922 15:39:45.203220 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121313
+I0922 15:39:45.226430 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24258
+I0922 15:39:45.378443 22399 place_recognition_kitti.cpp:121] raw pointcloud size:121950
+I0922 15:39:45.404278 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24312
+I0922 15:39:45.544260 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122629
+I0922 15:39:45.569239 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24078
+I0922 15:39:45.732234 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122872
+I0922 15:39:45.757685 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:24064
+I0922 15:39:45.891868 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123396
+I0922 15:39:45.918303 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23826
+I0922 15:39:46.514086 22399 STDesc.cpp:391] [Description] planes size:773
+I0922 15:39:47.284031 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123624
+I0922 15:39:47.308930 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23760
+I0922 15:39:47.438755 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123720
+I0922 15:39:47.468031 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23718
+I0922 15:39:47.616053 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123591
+I0922 15:39:47.642073 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23393
+I0922 15:39:47.789618 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123517
+I0922 15:39:47.813408 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23406
+I0922 15:39:47.951273 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123723
+I0922 15:39:47.976471 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23262
+I0922 15:39:48.120302 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123877
+I0922 15:39:48.140822 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23265
+I0922 15:39:48.282950 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124121
+I0922 15:39:48.310642 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23170
+I0922 15:39:48.451303 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124227
+I0922 15:39:48.482870 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23066
+I0922 15:39:48.622221 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124294
+I0922 15:39:48.650918 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23098
+I0922 15:39:48.798889 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124266
+I0922 15:39:48.824932 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23195
+I0922 15:39:49.414499 22399 STDesc.cpp:391] [Description] planes size:685
+I0922 15:39:50.174479 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124402
+I0922 15:39:50.197405 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23363
+I0922 15:39:50.337033 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124283
+I0922 15:39:50.363483 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23190
+I0922 15:39:50.517819 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124247
+I0922 15:39:50.539970 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:23094
+I0922 15:39:50.687438 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124124
+I0922 15:39:50.713264 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22991
+I0922 15:39:50.851768 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124070
+I0922 15:39:50.887403 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22971
+I0922 15:39:51.034209 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124048
+I0922 15:39:51.062726 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22886
+I0922 15:39:51.206553 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124057
+I0922 15:39:51.228488 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22841
+I0922 15:39:51.381944 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124036
+I0922 15:39:51.416042 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22662
+I0922 15:39:51.557814 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123748
+I0922 15:39:51.585024 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22643
+I0922 15:39:51.737628 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123765
+I0922 15:39:51.763898 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22812
+I0922 15:39:52.350591 22399 STDesc.cpp:391] [Description] planes size:743
+I0922 15:39:53.215009 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123693
+I0922 15:39:53.242426 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22766
+I0922 15:39:53.384333 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123595
+I0922 15:39:53.411904 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22630
+I0922 15:39:53.561049 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123373
+I0922 15:39:53.587257 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22761
+I0922 15:39:53.726857 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123161
+I0922 15:39:53.756448 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22630
+I0922 15:39:53.931628 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122857
+I0922 15:39:53.970789 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22771
+I0922 15:39:54.121798 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122676
+I0922 15:39:54.146014 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22683
+I0922 15:39:54.299572 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122484
+I0922 15:39:54.324661 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22657
+I0922 15:39:54.473908 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122303
+I0922 15:39:54.505088 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22475
+I0922 15:39:54.650722 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122277
+I0922 15:39:54.679680 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22354
+I0922 15:39:54.828632 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122303
+I0922 15:39:54.857800 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:22079
+I0922 15:39:55.457226 22399 STDesc.cpp:391] [Description] planes size:751
+I0922 15:39:56.357669 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122411
+I0922 15:39:56.387760 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21745
+I0922 15:39:56.538033 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122575
+I0922 15:39:56.564961 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21396
+I0922 15:39:56.710862 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122597
+I0922 15:39:56.733522 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:21220
+I0922 15:39:56.877041 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122588
+I0922 15:39:56.901473 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20955
+I0922 15:39:57.056054 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122499
+I0922 15:39:57.086453 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20729
+I0922 15:39:57.235540 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122506
+I0922 15:39:57.258963 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20354
+I0922 15:39:57.405728 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122149
+I0922 15:39:57.427341 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20047
+I0922 15:39:57.596356 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122237
+I0922 15:39:57.620409 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20006
+I0922 15:39:57.751999 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122369
+I0922 15:39:57.778314 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20102
+I0922 15:39:57.919863 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122477
+I0922 15:39:57.943321 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19941
+I0922 15:39:58.470155 22399 STDesc.cpp:391] [Description] planes size:619
+I0922 15:39:59.189566 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122140
+I0922 15:39:59.211524 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19542
+I0922 15:39:59.359498 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122143
+I0922 15:39:59.385208 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19389
+I0922 15:39:59.522408 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122255
+I0922 15:39:59.543783 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19208
+I0922 15:39:59.680029 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122526
+I0922 15:39:59.702214 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19405
+I0922 15:39:59.835117 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123045
+I0922 15:39:59.860808 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19578
+I0922 15:39:59.997822 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123368
+I0922 15:40:00.020781 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19601
+I0922 15:40:00.213330 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123754
+I0922 15:40:00.233659 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19756
+I0922 15:40:00.377432 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124226
+I0922 15:40:00.397629 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19929
+I0922 15:40:00.680692 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124994
+I0922 15:40:00.702312 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20003
+I0922 15:40:00.853371 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125732
+I0922 15:40:00.878085 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19921
+I0922 15:40:01.353716 22399 STDesc.cpp:391] [Description] planes size:589
+I0922 15:40:02.154963 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125987
+I0922 15:40:02.180265 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19967
+I0922 15:40:02.338760 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126153
+I0922 15:40:02.367743 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:20041
+I0922 15:40:02.502450 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125953
+I0922 15:40:02.526254 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19943
+I0922 15:40:02.673867 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126105
+I0922 15:40:02.698978 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19994
+I0922 15:40:02.854636 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126193
+I0922 15:40:02.882366 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19553
+I0922 15:40:03.025719 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126248
+I0922 15:40:03.053109 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19616
+I0922 15:40:03.208817 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126110
+I0922 15:40:03.230362 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19578
+I0922 15:40:03.384063 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126242
+I0922 15:40:03.409435 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19527
+I0922 15:40:03.563688 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126468
+I0922 15:40:03.589187 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19405
+I0922 15:40:03.728288 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126488
+I0922 15:40:03.751981 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19280
+I0922 15:40:04.221172 22399 STDesc.cpp:391] [Description] planes size:566
+I0922 15:40:05.056403 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126398
+I0922 15:40:05.079689 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19261
+I0922 15:40:05.229552 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126502
+I0922 15:40:05.254510 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19196
+I0922 15:40:05.400696 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126361
+I0922 15:40:05.424954 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:19030
+I0922 15:40:05.563896 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126311
+I0922 15:40:05.587388 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18739
+I0922 15:40:05.727960 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126120
+I0922 15:40:05.752589 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:18246
+I0922 15:40:05.900790 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126294
+I0922 15:40:05.922796 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:17245
+I0922 15:40:06.069593 22399 place_recognition_kitti.cpp:121] raw pointcloud size:126020
+I0922 15:40:06.093425 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16797
+I0922 15:40:06.239149 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125552
+I0922 15:40:06.259214 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15935
+I0922 15:40:06.413882 22399 place_recognition_kitti.cpp:121] raw pointcloud size:125311
+I0922 15:40:06.435580 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15634
+I0922 15:40:06.617246 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124957
+I0922 15:40:06.639176 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15491
+I0922 15:40:07.120397 22399 STDesc.cpp:391] [Description] planes size:547
+I0922 15:40:07.858073 22399 place_recognition_kitti.cpp:121] raw pointcloud size:124145
+I0922 15:40:07.877789 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15515
+I0922 15:40:08.042254 22399 place_recognition_kitti.cpp:121] raw pointcloud size:123539
+I0922 15:40:08.063700 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:15859
+I0922 15:40:08.216501 22399 place_recognition_kitti.cpp:121] raw pointcloud size:122593
+I0922 15:40:08.240231 22399 place_recognition_kitti.cpp:123] down_sampling_voxel size:16047

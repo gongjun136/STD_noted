@@ -4,7 +4,7 @@ project(std_detector)
 ## Compile as C++14
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 # SET(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
@@ -87,6 +87,14 @@ target_link_libraries(pgo_demo
 
 add_executable(online_demo demo/online_demo.cpp src/STDesc.cpp )
 target_link_libraries(online_demo
+        ${catkin_LIBRARIES}
+        ${PCL_LIBRARIES}
+        ${OpenCV_LIBS}
+        ${CERES_LIBRARIES}
+        gtsam)
+
+add_executable(lixel_demo_cloud_pair demo/lixel_demo_cloud_pair.cpp src/STDesc2.cpp )
+target_link_libraries(lixel_demo_cloud_pair
         ${catkin_LIBRARIES}
         ${PCL_LIBRARIES}
         ${OpenCV_LIBS}

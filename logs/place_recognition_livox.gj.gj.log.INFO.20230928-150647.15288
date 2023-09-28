@@ -1,0 +1,730 @@
+Log file created at: 2023/09/28 15:06:47
+Running on machine: gj
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0928 15:06:47.597906 15288 STDesc.cpp:564] voxel_map size1454
+I0928 15:06:47.610242 15288 STDesc.cpp:575] iter_list size1454
+I0928 15:06:47.808173 15288 STDesc.cpp:589] init octotree plane num: 1454
+I0928 15:06:47.808526 15288 STDesc.cpp:391] [Description] planes size:515
+I0928 15:06:47.855768 15288 STDesc.cpp:402] [Description] corners size:12
+I0928 15:06:47.857041 15288 STDesc.cpp:407] [Description] stds size:220
+I0928 15:06:48.183794 15288 STDesc.cpp:564] voxel_map size1462
+I0928 15:06:48.184091 15288 STDesc.cpp:575] iter_list size1462
+I0928 15:06:48.365579 15288 STDesc.cpp:589] init octotree plane num: 1462
+I0928 15:06:48.365957 15288 STDesc.cpp:391] [Description] planes size:502
+I0928 15:06:48.407255 15288 STDesc.cpp:402] [Description] corners size:16
+I0928 15:06:48.409904 15288 STDesc.cpp:407] [Description] stds size:546
+I0928 15:06:48.768031 15288 STDesc.cpp:564] voxel_map size1479
+I0928 15:06:48.768182 15288 STDesc.cpp:575] iter_list size1479
+I0928 15:06:48.970121 15288 STDesc.cpp:589] init octotree plane num: 1479
+I0928 15:06:48.970523 15288 STDesc.cpp:391] [Description] planes size:507
+I0928 15:06:48.995723 15288 STDesc.cpp:402] [Description] corners size:13
+I0928 15:06:48.997349 15288 STDesc.cpp:407] [Description] stds size:286
+I0928 15:06:49.319536 15288 STDesc.cpp:564] voxel_map size1473
+I0928 15:06:49.319710 15288 STDesc.cpp:575] iter_list size1473
+I0928 15:06:49.493026 15288 STDesc.cpp:589] init octotree plane num: 1473
+I0928 15:06:49.494005 15288 STDesc.cpp:391] [Description] planes size:502
+I0928 15:06:49.541625 15288 STDesc.cpp:402] [Description] corners size:12
+I0928 15:06:49.542572 15288 STDesc.cpp:407] [Description] stds size:165
+I0928 15:06:49.867216 15288 STDesc.cpp:564] voxel_map size1445
+I0928 15:06:49.867352 15288 STDesc.cpp:575] iter_list size1445
+I0928 15:06:50.038309 15288 STDesc.cpp:589] init octotree plane num: 1445
+I0928 15:06:50.038749 15288 STDesc.cpp:391] [Description] planes size:499
+I0928 15:06:50.070416 15288 STDesc.cpp:402] [Description] corners size:14
+I0928 15:06:50.072113 15288 STDesc.cpp:407] [Description] stds size:364
+I0928 15:06:50.395502 15288 STDesc.cpp:564] voxel_map size1459
+I0928 15:06:50.395630 15288 STDesc.cpp:575] iter_list size1459
+I0928 15:06:50.572264 15288 STDesc.cpp:589] init octotree plane num: 1459
+I0928 15:06:50.572774 15288 STDesc.cpp:391] [Description] planes size:498
+I0928 15:06:50.590303 15288 STDesc.cpp:402] [Description] corners size:13
+I0928 15:06:50.592046 15288 STDesc.cpp:407] [Description] stds size:275
+I0928 15:06:50.986420 15288 STDesc.cpp:564] voxel_map size1470
+I0928 15:06:50.986570 15288 STDesc.cpp:575] iter_list size1470
+I0928 15:06:51.166249 15288 STDesc.cpp:589] init octotree plane num: 1470
+I0928 15:06:51.166682 15288 STDesc.cpp:391] [Description] planes size:496
+I0928 15:06:51.201033 15288 STDesc.cpp:402] [Description] corners size:15
+I0928 15:06:51.203150 15288 STDesc.cpp:407] [Description] stds size:442
+I0928 15:06:51.503142 15288 STDesc.cpp:564] voxel_map size1460
+I0928 15:06:51.503253 15288 STDesc.cpp:575] iter_list size1460
+I0928 15:06:51.676589 15288 STDesc.cpp:589] init octotree plane num: 1460
+I0928 15:06:51.677026 15288 STDesc.cpp:391] [Description] planes size:498
+I0928 15:06:51.698827 15288 STDesc.cpp:402] [Description] corners size:17
+I0928 15:06:51.701897 15288 STDesc.cpp:407] [Description] stds size:631
+I0928 15:06:52.003710 15288 STDesc.cpp:564] voxel_map size1458
+I0928 15:06:52.003878 15288 STDesc.cpp:575] iter_list size1458
+I0928 15:06:52.178171 15288 STDesc.cpp:589] init octotree plane num: 1458
+I0928 15:06:52.178558 15288 STDesc.cpp:391] [Description] planes size:506
+I0928 15:06:52.214823 15288 STDesc.cpp:402] [Description] corners size:11
+I0928 15:06:52.216198 15288 STDesc.cpp:407] [Description] stds size:165
+I0928 15:06:52.527057 15288 STDesc.cpp:564] voxel_map size1485
+I0928 15:06:52.527180 15288 STDesc.cpp:575] iter_list size1485
+I0928 15:06:52.714058 15288 STDesc.cpp:589] init octotree plane num: 1485
+I0928 15:06:52.714473 15288 STDesc.cpp:391] [Description] planes size:502
+I0928 15:06:52.762635 15288 STDesc.cpp:402] [Description] corners size:15
+I0928 15:06:52.764622 15288 STDesc.cpp:407] [Description] stds size:455
+I0928 15:06:53.079710 15288 STDesc.cpp:564] voxel_map size1464
+I0928 15:06:53.079874 15288 STDesc.cpp:575] iter_list size1464
+I0928 15:06:53.248526 15288 STDesc.cpp:589] init octotree plane num: 1464
+I0928 15:06:53.248934 15288 STDesc.cpp:391] [Description] planes size:501
+I0928 15:06:53.285538 15288 STDesc.cpp:402] [Description] corners size:17
+I0928 15:06:53.288394 15288 STDesc.cpp:407] [Description] stds size:634
+I0928 15:06:53.590159 15288 STDesc.cpp:564] voxel_map size1471
+I0928 15:06:53.590303 15288 STDesc.cpp:575] iter_list size1471
+I0928 15:06:53.764487 15288 STDesc.cpp:589] init octotree plane num: 1471
+I0928 15:06:53.764890 15288 STDesc.cpp:391] [Description] planes size:505
+I0928 15:06:53.802834 15288 STDesc.cpp:402] [Description] corners size:16
+I0928 15:06:53.806317 15288 STDesc.cpp:407] [Description] stds size:546
+I0928 15:06:54.145670 15288 STDesc.cpp:564] voxel_map size1477
+I0928 15:06:54.145865 15288 STDesc.cpp:575] iter_list size1477
+I0928 15:06:54.318823 15288 STDesc.cpp:589] init octotree plane num: 1477
+I0928 15:06:54.319262 15288 STDesc.cpp:391] [Description] planes size:494
+I0928 15:06:54.357076 15288 STDesc.cpp:402] [Description] corners size:17
+I0928 15:06:54.359634 15288 STDesc.cpp:407] [Description] stds size:624
+I0928 15:06:54.684756 15288 STDesc.cpp:564] voxel_map size1473
+I0928 15:06:54.684870 15288 STDesc.cpp:575] iter_list size1473
+I0928 15:06:54.868149 15288 STDesc.cpp:589] init octotree plane num: 1473
+I0928 15:06:54.868548 15288 STDesc.cpp:391] [Description] planes size:496
+I0928 15:06:54.905552 15288 STDesc.cpp:402] [Description] corners size:12
+I0928 15:06:54.906991 15288 STDesc.cpp:407] [Description] stds size:220
+I0928 15:06:55.217481 15288 STDesc.cpp:564] voxel_map size1492
+I0928 15:06:55.217665 15288 STDesc.cpp:575] iter_list size1492
+I0928 15:06:55.393702 15288 STDesc.cpp:589] init octotree plane num: 1492
+I0928 15:06:55.394136 15288 STDesc.cpp:391] [Description] planes size:504
+I0928 15:06:55.423362 15288 STDesc.cpp:402] [Description] corners size:14
+I0928 15:06:55.425518 15288 STDesc.cpp:407] [Description] stds size:364
+I0928 15:06:55.745220 15288 STDesc.cpp:564] voxel_map size1464
+I0928 15:06:55.745349 15288 STDesc.cpp:575] iter_list size1464
+I0928 15:06:55.920579 15288 STDesc.cpp:589] init octotree plane num: 1464
+I0928 15:06:55.921306 15288 STDesc.cpp:391] [Description] planes size:502
+I0928 15:06:55.965615 15288 STDesc.cpp:402] [Description] corners size:14
+I0928 15:06:55.967628 15288 STDesc.cpp:407] [Description] stds size:364
+I0928 15:06:56.281873 15288 STDesc.cpp:564] voxel_map size1462
+I0928 15:06:56.282033 15288 STDesc.cpp:575] iter_list size1462
+I0928 15:06:56.465147 15288 STDesc.cpp:589] init octotree plane num: 1462
+I0928 15:06:56.465633 15288 STDesc.cpp:391] [Description] planes size:511
+I0928 15:06:56.509266 15288 STDesc.cpp:402] [Description] corners size:15
+I0928 15:06:56.511638 15288 STDesc.cpp:407] [Description] stds size:455
+I0928 15:06:56.963879 15288 STDesc.cpp:564] voxel_map size1921
+I0928 15:06:56.964027 15288 STDesc.cpp:575] iter_list size1921
+I0928 15:06:57.146144 15288 STDesc.cpp:589] init octotree plane num: 1921
+I0928 15:06:57.146622 15288 STDesc.cpp:391] [Description] planes size:520
+I0928 15:06:57.179858 15288 STDesc.cpp:402] [Description] corners size:8
+I0928 15:06:57.180516 15288 STDesc.cpp:407] [Description] stds size:56
+I0928 15:06:57.485433 15288 STDesc.cpp:564] voxel_map size1753
+I0928 15:06:57.485558 15288 STDesc.cpp:575] iter_list size1753
+I0928 15:06:57.666826 15288 STDesc.cpp:589] init octotree plane num: 1753
+I0928 15:06:57.667284 15288 STDesc.cpp:391] [Description] planes size:500
+I0928 15:06:57.707846 15288 STDesc.cpp:402] [Description] corners size:14
+I0928 15:06:57.709801 15288 STDesc.cpp:407] [Description] stds size:364
+I0928 15:06:58.020805 15288 STDesc.cpp:564] voxel_map size1602
+I0928 15:06:58.020979 15288 STDesc.cpp:575] iter_list size1602
+I0928 15:06:58.171341 15288 STDesc.cpp:589] init octotree plane num: 1602
+I0928 15:06:58.171738 15288 STDesc.cpp:391] [Description] planes size:406
+I0928 15:06:58.202272 15288 STDesc.cpp:402] [Description] corners size:12
+I0928 15:06:58.203670 15288 STDesc.cpp:407] [Description] stds size:220
+I0928 15:06:58.512624 15288 STDesc.cpp:564] voxel_map size1336
+I0928 15:06:58.512812 15288 STDesc.cpp:575] iter_list size1336
+I0928 15:06:58.651450 15288 STDesc.cpp:589] init octotree plane num: 1336
+I0928 15:06:58.651846 15288 STDesc.cpp:391] [Description] planes size:399
+I0928 15:06:58.666795 15288 STDesc.cpp:402] [Description] corners size:6
+I0928 15:06:58.667117 15288 STDesc.cpp:407] [Description] stds size:20
+I0928 15:06:58.984110 15288 STDesc.cpp:564] voxel_map size1292
+I0928 15:06:58.984265 15288 STDesc.cpp:575] iter_list size1292
+I0928 15:06:59.114005 15288 STDesc.cpp:589] init octotree plane num: 1292
+I0928 15:06:59.114367 15288 STDesc.cpp:391] [Description] planes size:404
+I0928 15:06:59.128772 15288 STDesc.cpp:402] [Description] corners size:10
+I0928 15:06:59.129789 15288 STDesc.cpp:407] [Description] stds size:120
+I0928 15:06:59.430843 15288 STDesc.cpp:564] voxel_map size1743
+I0928 15:06:59.431221 15288 STDesc.cpp:575] iter_list size1743
+I0928 15:06:59.609757 15288 STDesc.cpp:589] init octotree plane num: 1743
+I0928 15:06:59.610378 15288 STDesc.cpp:391] [Description] planes size:596
+I0928 15:06:59.632788 15288 STDesc.cpp:402] [Description] corners size:13
+I0928 15:06:59.634450 15288 STDesc.cpp:407] [Description] stds size:286
+I0928 15:06:59.964126 15288 STDesc.cpp:564] voxel_map size2367
+I0928 15:06:59.964336 15288 STDesc.cpp:575] iter_list size2367
+I0928 15:07:00.183708 15288 STDesc.cpp:589] init octotree plane num: 2367
+I0928 15:07:00.184691 15288 STDesc.cpp:391] [Description] planes size:770
+I0928 15:07:00.212455 15288 STDesc.cpp:402] [Description] corners size:18
+I0928 15:07:00.215813 15288 STDesc.cpp:407] [Description] stds size:713
+I0928 15:07:00.544360 15288 STDesc.cpp:564] voxel_map size2518
+I0928 15:07:00.544631 15288 STDesc.cpp:575] iter_list size2518
+I0928 15:07:00.788100 15288 STDesc.cpp:589] init octotree plane num: 2518
+I0928 15:07:00.788807 15288 STDesc.cpp:391] [Description] planes size:800
+I0928 15:07:00.811221 15288 STDesc.cpp:402] [Description] corners size:21
+I0928 15:07:00.815171 15288 STDesc.cpp:407] [Description] stds size:953
+I0928 15:07:01.144479 15288 STDesc.cpp:564] voxel_map size2568
+I0928 15:07:01.144760 15288 STDesc.cpp:575] iter_list size2568
+I0928 15:07:01.376015 15288 STDesc.cpp:589] init octotree plane num: 2568
+I0928 15:07:01.376724 15288 STDesc.cpp:391] [Description] planes size:730
+I0928 15:07:01.402892 15288 STDesc.cpp:402] [Description] corners size:15
+I0928 15:07:01.405115 15288 STDesc.cpp:407] [Description] stds size:455
+I0928 15:07:01.770485 15288 STDesc.cpp:564] voxel_map size2622
+I0928 15:07:01.770774 15288 STDesc.cpp:575] iter_list size2622
+I0928 15:07:02.001181 15288 STDesc.cpp:589] init octotree plane num: 2622
+I0928 15:07:02.001897 15288 STDesc.cpp:391] [Description] planes size:761
+I0928 15:07:02.050725 15288 STDesc.cpp:402] [Description] corners size:21
+I0928 15:07:02.055047 15288 STDesc.cpp:407] [Description] stds size:941
+I0928 15:07:02.374663 15288 STDesc.cpp:564] voxel_map size2569
+I0928 15:07:02.374852 15288 STDesc.cpp:575] iter_list size2569
+I0928 15:07:02.600103 15288 STDesc.cpp:589] init octotree plane num: 2569
+I0928 15:07:02.600841 15288 STDesc.cpp:391] [Description] planes size:705
+I0928 15:07:02.634138 15288 STDesc.cpp:402] [Description] corners size:14
+I0928 15:07:02.635980 15288 STDesc.cpp:407] [Description] stds size:314
+I0928 15:07:02.952656 15288 STDesc.cpp:564] voxel_map size2733
+I0928 15:07:02.952986 15288 STDesc.cpp:575] iter_list size2733
+I0928 15:07:03.171160 15288 STDesc.cpp:589] init octotree plane num: 2733
+I0928 15:07:03.171815 15288 STDesc.cpp:391] [Description] planes size:707
+I0928 15:07:03.215400 15288 STDesc.cpp:402] [Description] corners size:16
+I0928 15:07:03.218384 15288 STDesc.cpp:407] [Description] stds size:549
+I0928 15:07:03.558730 15288 STDesc.cpp:564] voxel_map size3253
+I0928 15:07:03.559026 15288 STDesc.cpp:575] iter_list size3253
+I0928 15:07:03.808461 15288 STDesc.cpp:589] init octotree plane num: 3253
+I0928 15:07:03.809427 15288 STDesc.cpp:391] [Description] planes size:842
+I0928 15:07:03.847317 15288 STDesc.cpp:402] [Description] corners size:11
+I0928 15:07:03.848315 15288 STDesc.cpp:407] [Description] stds size:120
+I0928 15:07:04.168462 15288 STDesc.cpp:564] voxel_map size3307
+I0928 15:07:04.168745 15288 STDesc.cpp:575] iter_list size3307
+I0928 15:07:04.449512 15288 STDesc.cpp:589] init octotree plane num: 3307
+I0928 15:07:04.450763 15288 STDesc.cpp:391] [Description] planes size:915
+I0928 15:07:04.490628 15288 STDesc.cpp:402] [Description] corners size:18
+I0928 15:07:04.493667 15288 STDesc.cpp:407] [Description] stds size:639
+I0928 15:07:04.827071 15288 STDesc.cpp:564] voxel_map size3353
+I0928 15:07:04.827399 15288 STDesc.cpp:575] iter_list size3353
+I0928 15:07:05.111342 15288 STDesc.cpp:589] init octotree plane num: 3353
+I0928 15:07:05.112133 15288 STDesc.cpp:391] [Description] planes size:830
+I0928 15:07:05.152206 15288 STDesc.cpp:402] [Description] corners size:15
+I0928 15:07:05.153908 15288 STDesc.cpp:407] [Description] stds size:289
+I0928 15:07:05.477356 15288 STDesc.cpp:564] voxel_map size3198
+I0928 15:07:05.477613 15288 STDesc.cpp:575] iter_list size3198
+I0928 15:07:05.764140 15288 STDesc.cpp:589] init octotree plane num: 3198
+I0928 15:07:05.764950 15288 STDesc.cpp:391] [Description] planes size:881
+I0928 15:07:05.803192 15288 STDesc.cpp:402] [Description] corners size:17
+I0928 15:07:05.805404 15288 STDesc.cpp:407] [Description] stds size:455
+I0928 15:07:06.210705 15288 STDesc.cpp:564] voxel_map size3326
+I0928 15:07:06.211396 15288 STDesc.cpp:575] iter_list size3326
+I0928 15:07:06.536396 15288 STDesc.cpp:589] init octotree plane num: 3326
+I0928 15:07:06.537665 15288 STDesc.cpp:391] [Description] planes size:1064
+I0928 15:07:06.581903 15288 STDesc.cpp:402] [Description] corners size:22
+I0928 15:07:06.585705 15288 STDesc.cpp:407] [Description] stds size:874
+I0928 15:07:06.928618 15288 STDesc.cpp:564] voxel_map size3136
+I0928 15:07:06.929116 15288 STDesc.cpp:575] iter_list size3136
+I0928 15:07:07.228086 15288 STDesc.cpp:589] init octotree plane num: 3136
+I0928 15:07:07.228947 15288 STDesc.cpp:391] [Description] planes size:949
+I0928 15:07:07.265743 15288 STDesc.cpp:402] [Description] corners size:22
+I0928 15:07:07.269201 15288 STDesc.cpp:407] [Description] stds size:839
+I0928 15:07:07.632071 15288 STDesc.cpp:564] voxel_map size3010
+I0928 15:07:07.632364 15288 STDesc.cpp:575] iter_list size3010
+I0928 15:07:07.911504 15288 STDesc.cpp:589] init octotree plane num: 3010
+I0928 15:07:07.912343 15288 STDesc.cpp:391] [Description] planes size:911
+I0928 15:07:07.950976 15288 STDesc.cpp:402] [Description] corners size:21
+I0928 15:07:07.954281 15288 STDesc.cpp:407] [Description] stds size:725
+I0928 15:07:08.288985 15288 STDesc.cpp:564] voxel_map size4090
+I0928 15:07:08.289368 15288 STDesc.cpp:575] iter_list size4090
+I0928 15:07:08.570580 15288 STDesc.cpp:589] init octotree plane num: 4090
+I0928 15:07:08.571534 15288 STDesc.cpp:391] [Description] planes size:939
+I0928 15:07:08.607358 15288 STDesc.cpp:402] [Description] corners size:19
+I0928 15:07:08.610720 15288 STDesc.cpp:407] [Description] stds size:733
+I0928 15:07:08.973578 15288 STDesc.cpp:564] voxel_map size5222
+I0928 15:07:08.973940 15288 STDesc.cpp:575] iter_list size5222
+I0928 15:07:09.335718 15288 STDesc.cpp:589] init octotree plane num: 5222
+I0928 15:07:09.337049 15288 STDesc.cpp:391] [Description] planes size:1245
+I0928 15:07:09.360117 15288 STDesc.cpp:402] [Description] corners size:14
+I0928 15:07:09.361546 15288 STDesc.cpp:407] [Description] stds size:222
+I0928 15:07:09.701380 15288 STDesc.cpp:564] voxel_map size4583
+I0928 15:07:09.701776 15288 STDesc.cpp:575] iter_list size4583
+I0928 15:07:10.035135 15288 STDesc.cpp:589] init octotree plane num: 4583
+I0928 15:07:10.036348 15288 STDesc.cpp:391] [Description] planes size:1181
+I0928 15:07:10.076093 15288 STDesc.cpp:402] [Description] corners size:20
+I0928 15:07:10.079501 15288 STDesc.cpp:407] [Description] stds size:843
+I0928 15:07:10.454767 15288 STDesc.cpp:564] voxel_map size4147
+I0928 15:07:10.455180 15288 STDesc.cpp:575] iter_list size4147
+I0928 15:07:10.781116 15288 STDesc.cpp:589] init octotree plane num: 4147
+I0928 15:07:10.782126 15288 STDesc.cpp:391] [Description] planes size:1110
+I0928 15:07:10.830498 15288 STDesc.cpp:402] [Description] corners size:26
+I0928 15:07:10.835953 15288 STDesc.cpp:407] [Description] stds size:1231
+I0928 15:07:11.215962 15288 STDesc.cpp:564] voxel_map size3990
+I0928 15:07:11.216347 15288 STDesc.cpp:575] iter_list size3990
+I0928 15:07:11.543807 15288 STDesc.cpp:589] init octotree plane num: 3990
+I0928 15:07:11.545068 15288 STDesc.cpp:391] [Description] planes size:1036
+I0928 15:07:11.596959 15288 STDesc.cpp:402] [Description] corners size:24
+I0928 15:07:11.601279 15288 STDesc.cpp:407] [Description] stds size:1123
+I0928 15:07:11.967401 15288 STDesc.cpp:564] voxel_map size3877
+I0928 15:07:11.967743 15288 STDesc.cpp:575] iter_list size3877
+I0928 15:07:12.270854 15288 STDesc.cpp:589] init octotree plane num: 3877
+I0928 15:07:12.271842 15288 STDesc.cpp:391] [Description] planes size:1017
+I0928 15:07:12.318434 15288 STDesc.cpp:402] [Description] corners size:25
+I0928 15:07:12.323861 15288 STDesc.cpp:407] [Description] stds size:1134
+I0928 15:07:12.667809 15288 STDesc.cpp:564] voxel_map size3649
+I0928 15:07:12.668234 15288 STDesc.cpp:575] iter_list size3649
+I0928 15:07:12.935971 15288 STDesc.cpp:589] init octotree plane num: 3649
+I0928 15:07:12.936940 15288 STDesc.cpp:391] [Description] planes size:915
+I0928 15:07:12.995281 15288 STDesc.cpp:402] [Description] corners size:22
+I0928 15:07:12.999218 15288 STDesc.cpp:407] [Description] stds size:991
+I0928 15:07:13.376232 15288 STDesc.cpp:564] voxel_map size3785
+I0928 15:07:13.376514 15288 STDesc.cpp:575] iter_list size3785
+I0928 15:07:13.661852 15288 STDesc.cpp:589] init octotree plane num: 3785
+I0928 15:07:13.662874 15288 STDesc.cpp:391] [Description] planes size:995
+I0928 15:07:13.703558 15288 STDesc.cpp:402] [Description] corners size:16
+I0928 15:07:13.706452 15288 STDesc.cpp:407] [Description] stds size:422
+I0928 15:07:14.055150 15288 STDesc.cpp:564] voxel_map size3866
+I0928 15:07:14.055552 15288 STDesc.cpp:575] iter_list size3866
+I0928 15:07:14.344743 15288 STDesc.cpp:589] init octotree plane num: 3866
+I0928 15:07:14.345681 15288 STDesc.cpp:391] [Description] planes size:1001
+I0928 15:07:14.399137 15288 STDesc.cpp:402] [Description] corners size:24
+I0928 15:07:14.403434 15288 STDesc.cpp:407] [Description] stds size:1028
+I0928 15:07:14.763931 15288 STDesc.cpp:564] voxel_map size3741
+I0928 15:07:14.764310 15288 STDesc.cpp:575] iter_list size3741
+I0928 15:07:15.041153 15288 STDesc.cpp:589] init octotree plane num: 3741
+I0928 15:07:15.042147 15288 STDesc.cpp:391] [Description] planes size:1007
+I0928 15:07:15.069640 15288 STDesc.cpp:402] [Description] corners size:18
+I0928 15:07:15.072464 15288 STDesc.cpp:407] [Description] stds size:714
+I0928 15:07:15.396445 15288 STDesc.cpp:564] voxel_map size3354
+I0928 15:07:15.396688 15288 STDesc.cpp:575] iter_list size3354
+I0928 15:07:15.650247 15288 STDesc.cpp:589] init octotree plane num: 3354
+I0928 15:07:15.651219 15288 STDesc.cpp:391] [Description] planes size:883
+I0928 15:07:15.691044 15288 STDesc.cpp:402] [Description] corners size:19
+I0928 15:07:15.694922 15288 STDesc.cpp:407] [Description] stds size:778
+I0928 15:07:16.025096 15288 STDesc.cpp:564] voxel_map size3282
+I0928 15:07:16.025476 15288 STDesc.cpp:575] iter_list size3282
+I0928 15:07:16.270121 15288 STDesc.cpp:589] init octotree plane num: 3282
+I0928 15:07:16.271013 15288 STDesc.cpp:391] [Description] planes size:869
+I0928 15:07:16.300750 15288 STDesc.cpp:402] [Description] corners size:16
+I0928 15:07:16.303484 15288 STDesc.cpp:407] [Description] stds size:547
+I0928 15:07:16.657092 15288 STDesc.cpp:564] voxel_map size4729
+I0928 15:07:16.657565 15288 STDesc.cpp:575] iter_list size4729
+I0928 15:07:16.977123 15288 STDesc.cpp:589] init octotree plane num: 4729
+I0928 15:07:16.978490 15288 STDesc.cpp:391] [Description] planes size:1173
+I0928 15:07:17.034482 15288 STDesc.cpp:402] [Description] corners size:21
+I0928 15:07:17.038614 15288 STDesc.cpp:407] [Description] stds size:922
+I0928 15:07:17.392648 15288 STDesc.cpp:564] voxel_map size3595
+I0928 15:07:17.392897 15288 STDesc.cpp:575] iter_list size3595
+I0928 15:07:17.672571 15288 STDesc.cpp:589] init octotree plane num: 3595
+I0928 15:07:17.673571 15288 STDesc.cpp:391] [Description] planes size:980
+I0928 15:07:17.736373 15288 STDesc.cpp:402] [Description] corners size:17
+I0928 15:07:17.739238 15288 STDesc.cpp:407] [Description] stds size:567
+I0928 15:07:18.091027 15288 STDesc.cpp:564] voxel_map size2922
+I0928 15:07:18.091298 15288 STDesc.cpp:575] iter_list size2922
+I0928 15:07:18.363095 15288 STDesc.cpp:589] init octotree plane num: 2922
+I0928 15:07:18.363937 15288 STDesc.cpp:391] [Description] planes size:936
+I0928 15:07:18.436172 15288 STDesc.cpp:402] [Description] corners size:19
+I0928 15:07:18.439442 15288 STDesc.cpp:407] [Description] stds size:609
+I0928 15:07:18.800515 15288 STDesc.cpp:564] voxel_map size2874
+I0928 15:07:18.800781 15288 STDesc.cpp:575] iter_list size2874
+I0928 15:07:19.070009 15288 STDesc.cpp:589] init octotree plane num: 2874
+I0928 15:07:19.070900 15288 STDesc.cpp:391] [Description] planes size:935
+I0928 15:07:19.131151 15288 STDesc.cpp:402] [Description] corners size:18
+I0928 15:07:19.132707 15288 STDesc.cpp:407] [Description] stds size:294
+I0928 15:07:19.481716 15288 STDesc.cpp:564] voxel_map size3247
+I0928 15:07:19.482131 15288 STDesc.cpp:575] iter_list size3247
+I0928 15:07:19.738139 15288 STDesc.cpp:589] init octotree plane num: 3247
+I0928 15:07:19.739044 15288 STDesc.cpp:391] [Description] planes size:882
+I0928 15:07:19.789523 15288 STDesc.cpp:402] [Description] corners size:15
+I0928 15:07:19.791070 15288 STDesc.cpp:407] [Description] stds size:305
+I0928 15:07:20.134352 15288 STDesc.cpp:564] voxel_map size3647
+I0928 15:07:20.134690 15288 STDesc.cpp:575] iter_list size3647
+I0928 15:07:20.403164 15288 STDesc.cpp:589] init octotree plane num: 3647
+I0928 15:07:20.404127 15288 STDesc.cpp:391] [Description] planes size:970
+I0928 15:07:20.457799 15288 STDesc.cpp:402] [Description] corners size:16
+I0928 15:07:20.460322 15288 STDesc.cpp:407] [Description] stds size:549
+I0928 15:07:20.832123 15288 STDesc.cpp:564] voxel_map size3681
+I0928 15:07:20.832468 15288 STDesc.cpp:575] iter_list size3681
+I0928 15:07:21.106842 15288 STDesc.cpp:589] init octotree plane num: 3681
+I0928 15:07:21.108017 15288 STDesc.cpp:391] [Description] planes size:909
+I0928 15:07:21.138578 15288 STDesc.cpp:402] [Description] corners size:14
+I0928 15:07:21.140377 15288 STDesc.cpp:407] [Description] stds size:331
+I0928 15:07:21.497069 15288 STDesc.cpp:564] voxel_map size4164
+I0928 15:07:21.497493 15288 STDesc.cpp:575] iter_list size4164
+I0928 15:07:21.797183 15288 STDesc.cpp:589] init octotree plane num: 4164
+I0928 15:07:21.798296 15288 STDesc.cpp:391] [Description] planes size:989
+I0928 15:07:21.838397 15288 STDesc.cpp:402] [Description] corners size:12
+I0928 15:07:21.839617 15288 STDesc.cpp:407] [Description] stds size:165
+I0928 15:07:22.200210 15288 STDesc.cpp:564] voxel_map size4789
+I0928 15:07:22.200624 15288 STDesc.cpp:575] iter_list size4789
+I0928 15:07:22.512629 15288 STDesc.cpp:589] init octotree plane num: 4789
+I0928 15:07:22.513793 15288 STDesc.cpp:391] [Description] planes size:1019
+I0928 15:07:22.568455 15288 STDesc.cpp:402] [Description] corners size:15
+I0928 15:07:22.570179 15288 STDesc.cpp:407] [Description] stds size:364
+I0928 15:07:22.933142 15288 STDesc.cpp:564] voxel_map size4475
+I0928 15:07:22.933606 15288 STDesc.cpp:575] iter_list size4475
+I0928 15:07:23.209736 15288 STDesc.cpp:589] init octotree plane num: 4475
+I0928 15:07:23.210906 15288 STDesc.cpp:391] [Description] planes size:968
+I0928 15:07:23.255026 15288 STDesc.cpp:402] [Description] corners size:16
+I0928 15:07:23.257732 15288 STDesc.cpp:407] [Description] stds size:549
+I0928 15:07:23.612022 15288 STDesc.cpp:564] voxel_map size4467
+I0928 15:07:23.613116 15288 STDesc.cpp:575] iter_list size4467
+I0928 15:07:23.889957 15288 STDesc.cpp:589] init octotree plane num: 4467
+I0928 15:07:23.891057 15288 STDesc.cpp:391] [Description] planes size:938
+I0928 15:07:23.933089 15288 STDesc.cpp:402] [Description] corners size:17
+I0928 15:07:23.935906 15288 STDesc.cpp:407] [Description] stds size:632
+I0928 15:07:24.288870 15288 STDesc.cpp:564] voxel_map size4345
+I0928 15:07:24.289269 15288 STDesc.cpp:575] iter_list size4345
+I0928 15:07:24.585526 15288 STDesc.cpp:589] init octotree plane num: 4345
+I0928 15:07:24.586669 15288 STDesc.cpp:391] [Description] planes size:964
+I0928 15:07:24.639065 15288 STDesc.cpp:402] [Description] corners size:16
+I0928 15:07:24.641301 15288 STDesc.cpp:407] [Description] stds size:474
+I0928 15:07:24.996862 15288 STDesc.cpp:564] voxel_map size4576
+I0928 15:07:24.997329 15288 STDesc.cpp:575] iter_list size4576
+I0928 15:07:25.297884 15288 STDesc.cpp:589] init octotree plane num: 4576
+I0928 15:07:25.299058 15288 STDesc.cpp:391] [Description] planes size:965
+I0928 15:07:25.315824 15288 STDesc.cpp:402] [Description] corners size:7
+I0928 15:07:25.316326 15288 STDesc.cpp:407] [Description] stds size:13
+I0928 15:07:25.692787 15288 STDesc.cpp:564] voxel_map size4590
+I0928 15:07:25.693301 15288 STDesc.cpp:575] iter_list size4590
+I0928 15:07:26.008635 15288 STDesc.cpp:589] init octotree plane num: 4590
+I0928 15:07:26.009959 15288 STDesc.cpp:391] [Description] planes size:1086
+I0928 15:07:26.039783 15288 STDesc.cpp:402] [Description] corners size:18
+I0928 15:07:26.042626 15288 STDesc.cpp:407] [Description] stds size:628
+I0928 15:07:26.421355 15288 STDesc.cpp:564] voxel_map size5517
+I0928 15:07:26.422029 15288 STDesc.cpp:575] iter_list size5517
+I0928 15:07:26.784360 15288 STDesc.cpp:589] init octotree plane num: 5517
+I0928 15:07:26.785753 15288 STDesc.cpp:391] [Description] planes size:1269
+I0928 15:07:26.808530 15288 STDesc.cpp:402] [Description] corners size:15
+I0928 15:07:26.810742 15288 STDesc.cpp:407] [Description] stds size:455
+I0928 15:07:27.224068 15288 STDesc.cpp:564] voxel_map size5631
+I0928 15:07:27.224596 15288 STDesc.cpp:575] iter_list size5631
+I0928 15:07:27.598142 15288 STDesc.cpp:589] init octotree plane num: 5631
+I0928 15:07:27.599571 15288 STDesc.cpp:391] [Description] planes size:1283
+I0928 15:07:27.623270 15288 STDesc.cpp:402] [Description] corners size:13
+I0928 15:07:27.624949 15288 STDesc.cpp:407] [Description] stds size:286
+I0928 15:07:28.013973 15288 STDesc.cpp:564] voxel_map size6666
+I0928 15:07:28.014961 15288 STDesc.cpp:575] iter_list size6666
+I0928 15:07:28.423063 15288 STDesc.cpp:589] init octotree plane num: 6666
+I0928 15:07:28.424773 15288 STDesc.cpp:391] [Description] planes size:1464
+I0928 15:07:28.452060 15288 STDesc.cpp:402] [Description] corners size:15
+I0928 15:07:28.453686 15288 STDesc.cpp:407] [Description] stds size:286
+I0928 15:07:28.828823 15288 STDesc.cpp:564] voxel_map size6804
+I0928 15:07:28.830144 15288 STDesc.cpp:575] iter_list size6804
+I0928 15:07:29.249905 15288 STDesc.cpp:589] init octotree plane num: 6804
+I0928 15:07:29.251611 15288 STDesc.cpp:391] [Description] planes size:1535
+I0928 15:07:29.285851 15288 STDesc.cpp:402] [Description] corners size:15
+I0928 15:07:29.286737 15288 STDesc.cpp:407] [Description] stds size:124
+I0928 15:07:29.668130 15288 STDesc.cpp:564] voxel_map size6457
+I0928 15:07:29.668717 15288 STDesc.cpp:575] iter_list size6457
+I0928 15:07:30.051295 15288 STDesc.cpp:589] init octotree plane num: 6457
+I0928 15:07:30.052935 15288 STDesc.cpp:391] [Description] planes size:1484
+I0928 15:07:30.070536 15288 STDesc.cpp:402] [Description] corners size:11
+I0928 15:07:30.070999 15288 STDesc.cpp:407] [Description] stds size:30
+I0928 15:07:30.442934 15288 STDesc.cpp:564] voxel_map size6115
+I0928 15:07:30.443387 15288 STDesc.cpp:575] iter_list size6115
+I0928 15:07:30.823899 15288 STDesc.cpp:589] init octotree plane num: 6115
+I0928 15:07:30.825537 15288 STDesc.cpp:391] [Description] planes size:1510
+I0928 15:07:30.848987 15288 STDesc.cpp:402] [Description] corners size:16
+I0928 15:07:30.850106 15288 STDesc.cpp:407] [Description] stds size:201
+I0928 15:07:31.231532 15288 STDesc.cpp:564] voxel_map size6132
+I0928 15:07:31.232131 15288 STDesc.cpp:575] iter_list size6132
+I0928 15:07:31.646946 15288 STDesc.cpp:589] init octotree plane num: 6132
+I0928 15:07:31.648733 15288 STDesc.cpp:391] [Description] planes size:1683
+I0928 15:07:31.672857 15288 STDesc.cpp:402] [Description] corners size:23
+I0928 15:07:31.677791 15288 STDesc.cpp:407] [Description] stds size:805
+I0928 15:07:32.134377 15288 STDesc.cpp:564] voxel_map size5350
+I0928 15:07:32.134912 15288 STDesc.cpp:575] iter_list size5350
+I0928 15:07:32.515727 15288 STDesc.cpp:589] init octotree plane num: 5350
+I0928 15:07:32.517215 15288 STDesc.cpp:391] [Description] planes size:1494
+I0928 15:07:32.554378 15288 STDesc.cpp:402] [Description] corners size:20
+I0928 15:07:32.557915 15288 STDesc.cpp:407] [Description] stds size:794
+I0928 15:07:32.918671 15288 STDesc.cpp:564] voxel_map size4865
+I0928 15:07:32.919222 15288 STDesc.cpp:575] iter_list size4865
+I0928 15:07:33.247287 15288 STDesc.cpp:589] init octotree plane num: 4865
+I0928 15:07:33.248648 15288 STDesc.cpp:391] [Description] planes size:1331
+I0928 15:07:33.284380 15288 STDesc.cpp:402] [Description] corners size:25
+I0928 15:07:33.288619 15288 STDesc.cpp:407] [Description] stds size:985
+I0928 15:07:33.656997 15288 STDesc.cpp:564] voxel_map size3930
+I0928 15:07:33.657373 15288 STDesc.cpp:575] iter_list size3930
+I0928 15:07:33.935432 15288 STDesc.cpp:589] init octotree plane num: 3930
+I0928 15:07:33.936655 15288 STDesc.cpp:391] [Description] planes size:1097
+I0928 15:07:33.975944 15288 STDesc.cpp:402] [Description] corners size:21
+I0928 15:07:33.980016 15288 STDesc.cpp:407] [Description] stds size:831
+I0928 15:07:34.340598 15288 STDesc.cpp:564] voxel_map size3304
+I0928 15:07:34.340860 15288 STDesc.cpp:575] iter_list size3304
+I0928 15:07:34.618551 15288 STDesc.cpp:589] init octotree plane num: 3304
+I0928 15:07:34.619823 15288 STDesc.cpp:391] [Description] planes size:1086
+I0928 15:07:34.660146 15288 STDesc.cpp:402] [Description] corners size:26
+I0928 15:07:34.665104 15288 STDesc.cpp:407] [Description] stds size:1094
+I0928 15:07:35.041818 15288 STDesc.cpp:564] voxel_map size3313
+I0928 15:07:35.042328 15288 STDesc.cpp:575] iter_list size3313
+I0928 15:07:35.323020 15288 STDesc.cpp:589] init octotree plane num: 3313
+I0928 15:07:35.324131 15288 STDesc.cpp:391] [Description] planes size:1056
+I0928 15:07:35.360016 15288 STDesc.cpp:402] [Description] corners size:21
+I0928 15:07:35.363597 15288 STDesc.cpp:407] [Description] stds size:889
+I0928 15:07:35.785517 15288 STDesc.cpp:564] voxel_map size3351
+I0928 15:07:35.785971 15288 STDesc.cpp:575] iter_list size3351
+I0928 15:07:36.085932 15288 STDesc.cpp:589] init octotree plane num: 3351
+I0928 15:07:36.087332 15288 STDesc.cpp:391] [Description] planes size:1145
+I0928 15:07:36.145380 15288 STDesc.cpp:402] [Description] corners size:20
+I0928 15:07:36.149535 15288 STDesc.cpp:407] [Description] stds size:874
+I0928 15:07:36.552903 15288 STDesc.cpp:564] voxel_map size3644
+I0928 15:07:36.553313 15288 STDesc.cpp:575] iter_list size3644
+I0928 15:07:36.880903 15288 STDesc.cpp:589] init octotree plane num: 3644
+I0928 15:07:36.882027 15288 STDesc.cpp:391] [Description] planes size:1239
+I0928 15:07:36.967403 15288 STDesc.cpp:402] [Description] corners size:26
+I0928 15:07:36.972950 15288 STDesc.cpp:407] [Description] stds size:1277
+I0928 15:07:37.400090 15288 STDesc.cpp:564] voxel_map size3926
+I0928 15:07:37.401062 15288 STDesc.cpp:575] iter_list size3926
+I0928 15:07:37.792948 15288 STDesc.cpp:589] init octotree plane num: 3926
+I0928 15:07:37.794310 15288 STDesc.cpp:391] [Description] planes size:1427
+I0928 15:07:37.850471 15288 STDesc.cpp:402] [Description] corners size:29
+I0928 15:07:37.856482 15288 STDesc.cpp:407] [Description] stds size:1480
+I0928 15:07:38.288085 15288 STDesc.cpp:564] voxel_map size4222
+I0928 15:07:38.288579 15288 STDesc.cpp:575] iter_list size4222
+I0928 15:07:38.690984 15288 STDesc.cpp:589] init octotree plane num: 4222
+I0928 15:07:38.692299 15288 STDesc.cpp:391] [Description] planes size:1423
+I0928 15:07:38.731396 15288 STDesc.cpp:402] [Description] corners size:40
+I0928 15:07:38.739502 15288 STDesc.cpp:407] [Description] stds size:2129
+I0928 15:07:39.154229 15288 STDesc.cpp:564] voxel_map size2961
+I0928 15:07:39.154562 15288 STDesc.cpp:575] iter_list size2961
+I0928 15:07:39.434412 15288 STDesc.cpp:589] init octotree plane num: 2961
+I0928 15:07:39.435559 15288 STDesc.cpp:391] [Description] planes size:1006
+I0928 15:07:39.469949 15288 STDesc.cpp:402] [Description] corners size:30
+I0928 15:07:39.476032 15288 STDesc.cpp:407] [Description] stds size:1567
+I0928 15:07:39.872748 15288 STDesc.cpp:564] voxel_map size1891
+I0928 15:07:39.872916 15288 STDesc.cpp:575] iter_list size1891
+I0928 15:07:40.081660 15288 STDesc.cpp:589] init octotree plane num: 1891
+I0928 15:07:40.082536 15288 STDesc.cpp:391] [Description] planes size:701
+I0928 15:07:40.113945 15288 STDesc.cpp:402] [Description] corners size:23
+I0928 15:07:40.118853 15288 STDesc.cpp:407] [Description] stds size:1102
+I0928 15:07:40.518577 15288 STDesc.cpp:564] voxel_map size1639
+I0928 15:07:40.518731 15288 STDesc.cpp:575] iter_list size1639
+I0928 15:07:40.700706 15288 STDesc.cpp:589] init octotree plane num: 1639
+I0928 15:07:40.701423 15288 STDesc.cpp:391] [Description] planes size:623
+I0928 15:07:40.733381 15288 STDesc.cpp:402] [Description] corners size:25
+I0928 15:07:40.738463 15288 STDesc.cpp:407] [Description] stds size:1188
+I0928 15:07:41.114418 15288 STDesc.cpp:564] voxel_map size1609
+I0928 15:07:41.114567 15288 STDesc.cpp:575] iter_list size1609
+I0928 15:07:41.296156 15288 STDesc.cpp:589] init octotree plane num: 1609
+I0928 15:07:41.296921 15288 STDesc.cpp:391] [Description] planes size:594
+I0928 15:07:41.330440 15288 STDesc.cpp:402] [Description] corners size:20
+I0928 15:07:41.333860 15288 STDesc.cpp:407] [Description] stds size:848
+I0928 15:07:41.711606 15288 STDesc.cpp:564] voxel_map size1742
+I0928 15:07:41.711791 15288 STDesc.cpp:575] iter_list size1742
+I0928 15:07:41.880650 15288 STDesc.cpp:589] init octotree plane num: 1742
+I0928 15:07:41.881341 15288 STDesc.cpp:391] [Description] planes size:610
+I0928 15:07:41.907763 15288 STDesc.cpp:402] [Description] corners size:23
+I0928 15:07:41.912158 15288 STDesc.cpp:407] [Description] stds size:1094
+I0928 15:07:42.288100 15288 STDesc.cpp:564] voxel_map size1669
+I0928 15:07:42.288292 15288 STDesc.cpp:575] iter_list size1669
+I0928 15:07:42.468734 15288 STDesc.cpp:589] init octotree plane num: 1669
+I0928 15:07:42.469401 15288 STDesc.cpp:391] [Description] planes size:594
+I0928 15:07:42.495617 15288 STDesc.cpp:402] [Description] corners size:18
+I0928 15:07:42.498762 15288 STDesc.cpp:407] [Description] stds size:718
+I0928 15:07:42.884841 15288 STDesc.cpp:564] voxel_map size1742
+I0928 15:07:42.885008 15288 STDesc.cpp:575] iter_list size1742
+I0928 15:07:43.070653 15288 STDesc.cpp:589] init octotree plane num: 1742
+I0928 15:07:43.071282 15288 STDesc.cpp:391] [Description] planes size:582
+I0928 15:07:43.098826 15288 STDesc.cpp:402] [Description] corners size:17
+I0928 15:07:43.101900 15288 STDesc.cpp:407] [Description] stds size:644
+I0928 15:07:43.449914 15288 STDesc.cpp:564] voxel_map size1909
+I0928 15:07:43.450150 15288 STDesc.cpp:575] iter_list size1909
+I0928 15:07:43.643867 15288 STDesc.cpp:589] init octotree plane num: 1909
+I0928 15:07:43.644671 15288 STDesc.cpp:391] [Description] planes size:639
+I0928 15:07:43.665326 15288 STDesc.cpp:402] [Description] corners size:15
+I0928 15:07:43.667502 15288 STDesc.cpp:407] [Description] stds size:455
+I0928 15:07:44.035223 15288 STDesc.cpp:564] voxel_map size2054
+I0928 15:07:44.035456 15288 STDesc.cpp:575] iter_list size2054
+I0928 15:07:44.256919 15288 STDesc.cpp:589] init octotree plane num: 2054
+I0928 15:07:44.257668 15288 STDesc.cpp:391] [Description] planes size:692
+I0928 15:07:44.282434 15288 STDesc.cpp:402] [Description] corners size:20
+I0928 15:07:44.285979 15288 STDesc.cpp:407] [Description] stds size:856
+I0928 15:07:44.672237 15288 STDesc.cpp:564] voxel_map size2347
+I0928 15:07:44.672573 15288 STDesc.cpp:575] iter_list size2347
+I0928 15:07:44.884856 15288 STDesc.cpp:589] init octotree plane num: 2347
+I0928 15:07:44.885614 15288 STDesc.cpp:391] [Description] planes size:723
+I0928 15:07:44.933686 15288 STDesc.cpp:402] [Description] corners size:17
+I0928 15:07:44.936681 15288 STDesc.cpp:407] [Description] stds size:633
+I0928 15:07:45.298813 15288 STDesc.cpp:564] voxel_map size3020
+I0928 15:07:45.299080 15288 STDesc.cpp:575] iter_list size3020
+I0928 15:07:45.530189 15288 STDesc.cpp:589] init octotree plane num: 3020
+I0928 15:07:45.532161 15288 STDesc.cpp:391] [Description] planes size:775
+I0928 15:07:45.591871 15288 STDesc.cpp:402] [Description] corners size:16
+I0928 15:07:45.594379 15288 STDesc.cpp:407] [Description] stds size:520
+I0928 15:07:45.953887 15288 STDesc.cpp:564] voxel_map size3482
+I0928 15:07:45.954337 15288 STDesc.cpp:575] iter_list size3482
+I0928 15:07:46.213863 15288 STDesc.cpp:589] init octotree plane num: 3482
+I0928 15:07:46.215219 15288 STDesc.cpp:391] [Description] planes size:868
+I0928 15:07:46.279999 15288 STDesc.cpp:402] [Description] corners size:14
+I0928 15:07:46.282395 15288 STDesc.cpp:407] [Description] stds size:364
+I0928 15:07:46.647765 15288 STDesc.cpp:564] voxel_map size3356
+I0928 15:07:46.648223 15288 STDesc.cpp:575] iter_list size3356
+I0928 15:07:46.931128 15288 STDesc.cpp:589] init octotree plane num: 3356
+I0928 15:07:46.932221 15288 STDesc.cpp:391] [Description] planes size:888
+I0928 15:07:46.980158 15288 STDesc.cpp:402] [Description] corners size:17
+I0928 15:07:46.983440 15288 STDesc.cpp:407] [Description] stds size:537
+I0928 15:07:47.374352 15288 STDesc.cpp:564] voxel_map size3782
+I0928 15:07:47.374689 15288 STDesc.cpp:575] iter_list size3782
+I0928 15:07:47.625174 15288 STDesc.cpp:589] init octotree plane num: 3782
+I0928 15:07:47.626221 15288 STDesc.cpp:391] [Description] planes size:901
+I0928 15:07:47.683210 15288 STDesc.cpp:402] [Description] corners size:8
+I0928 15:07:47.683903 15288 STDesc.cpp:407] [Description] stds size:50
+I0928 15:07:48.050649 15288 STDesc.cpp:564] voxel_map size4918
+I0928 15:07:48.052052 15288 STDesc.cpp:575] iter_list size4918
+I0928 15:07:48.321905 15288 STDesc.cpp:589] init octotree plane num: 4918
+I0928 15:07:48.323489 15288 STDesc.cpp:391] [Description] planes size:943
+I0928 15:07:48.385572 15288 STDesc.cpp:402] [Description] corners size:12
+I0928 15:07:48.387125 15288 STDesc.cpp:407] [Description] stds size:220
+I0928 15:07:48.749663 15288 STDesc.cpp:564] voxel_map size5924
+I0928 15:07:48.750707 15288 STDesc.cpp:575] iter_list size5924
+I0928 15:07:49.031075 15288 STDesc.cpp:589] init octotree plane num: 5924
+I0928 15:07:49.032785 15288 STDesc.cpp:391] [Description] planes size:1004
+I0928 15:07:49.122694 15288 STDesc.cpp:402] [Description] corners size:11
+I0928 15:07:49.123881 15288 STDesc.cpp:407] [Description] stds size:165
+I0928 15:07:49.491057 15288 STDesc.cpp:564] voxel_map size5510
+I0928 15:07:49.491575 15288 STDesc.cpp:575] iter_list size5510
+I0928 15:07:49.738716 15288 STDesc.cpp:589] init octotree plane num: 5510
+I0928 15:07:49.740319 15288 STDesc.cpp:391] [Description] planes size:809
+I0928 15:07:49.799353 15288 STDesc.cpp:402] [Description] corners size:10
+I0928 15:07:49.799827 15288 STDesc.cpp:407] [Description] stds size:56
+I0928 15:07:50.141321 15288 STDesc.cpp:564] voxel_map size5402
+I0928 15:07:50.141952 15288 STDesc.cpp:575] iter_list size5402
+I0928 15:07:50.381395 15288 STDesc.cpp:589] init octotree plane num: 5402
+I0928 15:07:50.382768 15288 STDesc.cpp:391] [Description] planes size:908
+I0928 15:07:50.428169 15288 STDesc.cpp:402] [Description] corners size:8
+I0928 15:07:50.429190 15288 STDesc.cpp:407] [Description] stds size:56
+I0928 15:07:50.782163 15288 STDesc.cpp:564] voxel_map size4670
+I0928 15:07:50.782950 15288 STDesc.cpp:575] iter_list size4670
+I0928 15:07:51.069551 15288 STDesc.cpp:589] init octotree plane num: 4670
+I0928 15:07:51.070803 15288 STDesc.cpp:391] [Description] planes size:1127
+I0928 15:07:51.091506 15288 STDesc.cpp:402] [Description] corners size:12
+I0928 15:07:51.092862 15288 STDesc.cpp:407] [Description] stds size:210
+I0928 15:07:51.490126 15288 STDesc.cpp:564] voxel_map size4268
+I0928 15:07:51.490559 15288 STDesc.cpp:575] iter_list size4268
+I0928 15:07:51.836197 15288 STDesc.cpp:589] init octotree plane num: 4268
+I0928 15:07:51.837502 15288 STDesc.cpp:391] [Description] planes size:1164
+I0928 15:07:51.863850 15288 STDesc.cpp:402] [Description] corners size:17
+I0928 15:07:51.866605 15288 STDesc.cpp:407] [Description] stds size:607
+I0928 15:07:52.259052 15288 STDesc.cpp:564] voxel_map size4382
+I0928 15:07:52.259511 15288 STDesc.cpp:575] iter_list size4382
+I0928 15:07:52.622830 15288 STDesc.cpp:589] init octotree plane num: 4382
+I0928 15:07:52.624183 15288 STDesc.cpp:391] [Description] planes size:1263
+I0928 15:07:52.661274 15288 STDesc.cpp:402] [Description] corners size:19
+I0928 15:07:52.664392 15288 STDesc.cpp:407] [Description] stds size:791
+I0928 15:07:53.085080 15288 STDesc.cpp:564] voxel_map size4224
+I0928 15:07:53.085693 15288 STDesc.cpp:575] iter_list size4224
+I0928 15:07:53.412987 15288 STDesc.cpp:589] init octotree plane num: 4224
+I0928 15:07:53.414264 15288 STDesc.cpp:391] [Description] planes size:1168
+I0928 15:07:53.441654 15288 STDesc.cpp:402] [Description] corners size:16
+I0928 15:07:53.444721 15288 STDesc.cpp:407] [Description] stds size:547
+I0928 15:07:53.856518 15288 STDesc.cpp:564] voxel_map size4136
+I0928 15:07:53.856940 15288 STDesc.cpp:575] iter_list size4136
+I0928 15:07:54.197275 15288 STDesc.cpp:589] init octotree plane num: 4136
+I0928 15:07:54.198587 15288 STDesc.cpp:391] [Description] planes size:1198
+I0928 15:07:54.229470 15288 STDesc.cpp:402] [Description] corners size:22
+I0928 15:07:54.233319 15288 STDesc.cpp:407] [Description] stds size:1003
+I0928 15:07:54.698225 15288 STDesc.cpp:564] voxel_map size4231
+I0928 15:07:54.698673 15288 STDesc.cpp:575] iter_list size4231
+I0928 15:07:55.069130 15288 STDesc.cpp:589] init octotree plane num: 4231
+I0928 15:07:55.070504 15288 STDesc.cpp:391] [Description] planes size:1208
+I0928 15:07:55.108745 15288 STDesc.cpp:402] [Description] corners size:24
+I0928 15:07:55.113340 15288 STDesc.cpp:407] [Description] stds size:1070
+I0928 15:07:55.626142 15288 STDesc.cpp:564] voxel_map size4325
+I0928 15:07:55.627154 15288 STDesc.cpp:575] iter_list size4325
+I0928 15:07:55.978816 15288 STDesc.cpp:589] init octotree plane num: 4325
+I0928 15:07:55.980154 15288 STDesc.cpp:391] [Description] planes size:1208
+I0928 15:07:56.020666 15288 STDesc.cpp:402] [Description] corners size:18
+I0928 15:07:56.023732 15288 STDesc.cpp:407] [Description] stds size:704
+I0928 15:07:56.458827 15288 STDesc.cpp:564] voxel_map size4053
+I0928 15:07:56.459483 15288 STDesc.cpp:575] iter_list size4053
+I0928 15:07:56.792011 15288 STDesc.cpp:589] init octotree plane num: 4053
+I0928 15:07:56.793318 15288 STDesc.cpp:391] [Description] planes size:1099
+I0928 15:07:56.836241 15288 STDesc.cpp:402] [Description] corners size:26
+I0928 15:07:56.841652 15288 STDesc.cpp:407] [Description] stds size:1265
+I0928 15:07:57.323560 15288 STDesc.cpp:564] voxel_map size3823
+I0928 15:07:57.324036 15288 STDesc.cpp:575] iter_list size3823
+I0928 15:07:57.646955 15288 STDesc.cpp:589] init octotree plane num: 3823
+I0928 15:07:57.648185 15288 STDesc.cpp:391] [Description] planes size:1096
+I0928 15:07:57.677213 15288 STDesc.cpp:402] [Description] corners size:25
+I0928 15:07:57.683626 15288 STDesc.cpp:407] [Description] stds size:1223
+I0928 15:07:58.190398 15288 STDesc.cpp:564] voxel_map size3866
+I0928 15:07:58.190774 15288 STDesc.cpp:575] iter_list size3866
+I0928 15:07:58.506455 15288 STDesc.cpp:589] init octotree plane num: 3866
+I0928 15:07:58.507705 15288 STDesc.cpp:391] [Description] planes size:1071
+I0928 15:07:58.543079 15288 STDesc.cpp:402] [Description] corners size:25
+I0928 15:07:58.548727 15288 STDesc.cpp:407] [Description] stds size:1190
+I0928 15:07:59.056322 15288 STDesc.cpp:564] voxel_map size3736
+I0928 15:07:59.056695 15288 STDesc.cpp:575] iter_list size3736
+I0928 15:07:59.365198 15288 STDesc.cpp:589] init octotree plane num: 3736
+I0928 15:07:59.366364 15288 STDesc.cpp:391] [Description] planes size:964
+I0928 15:07:59.399310 15288 STDesc.cpp:402] [Description] corners size:27
+I0928 15:07:59.406275 15288 STDesc.cpp:407] [Description] stds size:1255
+I0928 15:07:59.890900 15288 STDesc.cpp:564] voxel_map size3619
+I0928 15:07:59.891207 15288 STDesc.cpp:575] iter_list size3619
+I0928 15:08:00.177161 15288 STDesc.cpp:589] init octotree plane num: 3619
+I0928 15:08:00.178287 15288 STDesc.cpp:391] [Description] planes size:931
+I0928 15:08:00.215202 15288 STDesc.cpp:402] [Description] corners size:23
+I0928 15:08:00.220296 15288 STDesc.cpp:407] [Description] stds size:1016
+I0928 15:08:00.712991 15288 STDesc.cpp:564] voxel_map size3534
+I0928 15:08:00.713330 15288 STDesc.cpp:575] iter_list size3534
+I0928 15:08:00.983522 15288 STDesc.cpp:589] init octotree plane num: 3534
+I0928 15:08:00.984863 15288 STDesc.cpp:391] [Description] planes size:904
+I0928 15:08:01.020516 15288 STDesc.cpp:402] [Description] corners size:20
+I0928 15:08:01.024262 15288 STDesc.cpp:407] [Description] stds size:841
+I0928 15:08:01.454622 15288 STDesc.cpp:564] voxel_map size3426
+I0928 15:08:01.454989 15288 STDesc.cpp:575] iter_list size3426
+I0928 15:08:01.708031 15288 STDesc.cpp:589] init octotree plane num: 3426
+I0928 15:08:01.709002 15288 STDesc.cpp:391] [Description] planes size:899
+I0928 15:08:01.743316 15288 STDesc.cpp:402] [Description] corners size:25
+I0928 15:08:01.748800 15288 STDesc.cpp:407] [Description] stds size:1110
+I0928 15:08:02.230401 15288 STDesc.cpp:564] voxel_map size3357
+I0928 15:08:02.230774 15288 STDesc.cpp:575] iter_list size3357
+I0928 15:08:02.495450 15288 STDesc.cpp:589] init octotree plane num: 3357
+I0928 15:08:02.496506 15288 STDesc.cpp:391] [Description] planes size:887
+I0928 15:08:02.538981 15288 STDesc.cpp:402] [Description] corners size:23
+I0928 15:08:02.543804 15288 STDesc.cpp:407] [Description] stds size:1064
+I0928 15:08:02.995594 15288 STDesc.cpp:564] voxel_map size3634
+I0928 15:08:02.996014 15288 STDesc.cpp:575] iter_list size3634
+I0928 15:08:03.277705 15288 STDesc.cpp:589] init octotree plane num: 3634
+I0928 15:08:03.278750 15288 STDesc.cpp:391] [Description] planes size:990
+I0928 15:08:03.332603 15288 STDesc.cpp:402] [Description] corners size:23
+I0928 15:08:03.336460 15288 STDesc.cpp:407] [Description] stds size:991
+I0928 15:08:03.776235 15288 STDesc.cpp:564] voxel_map size3852
+I0928 15:08:03.777202 15288 STDesc.cpp:575] iter_list size3852
+I0928 15:08:04.051506 15288 STDesc.cpp:589] init octotree plane num: 3852
+I0928 15:08:04.053056 15288 STDesc.cpp:391] [Description] planes size:1028
+I0928 15:08:04.101840 15288 STDesc.cpp:402] [Description] corners size:24
+I0928 15:08:04.106139 15288 STDesc.cpp:407] [Description] stds size:1065
+I0928 15:08:04.559162 15288 STDesc.cpp:564] voxel_map size3766
+I0928 15:08:04.559859 15288 STDesc.cpp:575] iter_list size3766
+I0928 15:08:04.845677 15288 STDesc.cpp:589] init octotree plane num: 3766
+I0928 15:08:04.846810 15288 STDesc.cpp:391] [Description] planes size:999
+I0928 15:08:04.889065 15288 STDesc.cpp:402] [Description] corners size:22
+I0928 15:08:04.893136 15288 STDesc.cpp:407] [Description] stds size:938
+I0928 15:08:05.356981 15288 STDesc.cpp:564] voxel_map size4199
+I0928 15:08:05.357416 15288 STDesc.cpp:575] iter_list size4199
+I0928 15:08:05.661536 15288 STDesc.cpp:589] init octotree plane num: 4199
+I0928 15:08:05.662967 15288 STDesc.cpp:391] [Description] planes size:1174
+I0928 15:08:05.698031 15288 STDesc.cpp:402] [Description] corners size:26
+I0928 15:08:05.703028 15288 STDesc.cpp:407] [Description] stds size:1166
+I0928 15:08:06.157847 15288 STDesc.cpp:564] voxel_map size4443
+I0928 15:08:06.158500 15288 STDesc.cpp:575] iter_list size4443
+I0928 15:08:06.472788 15288 STDesc.cpp:589] init octotree plane num: 4443
+I0928 15:08:06.474169 15288 STDesc.cpp:391] [Description] planes size:1187
+I0928 15:08:06.510066 15288 STDesc.cpp:402] [Description] corners size:20
+I0928 15:08:06.513371 15288 STDesc.cpp:407] [Description] stds size:671
+I0928 15:08:06.939515 15288 STDesc.cpp:564] voxel_map size4118
+I0928 15:08:06.939949 15288 STDesc.cpp:575] iter_list size4118
+I0928 15:08:07.228001 15288 STDesc.cpp:589] init octotree plane num: 4118
+I0928 15:08:07.229316 15288 STDesc.cpp:391] [Description] planes size:1072
+I0928 15:08:07.263607 15288 STDesc.cpp:402] [Description] corners size:22
+I0928 15:08:07.267572 15288 STDesc.cpp:407] [Description] stds size:985
+I0928 15:08:07.691179 15288 STDesc.cpp:564] voxel_map size4169
+I0928 15:08:07.691917 15288 STDesc.cpp:575] iter_list size4169
+I0928 15:08:07.988322 15288 STDesc.cpp:589] init octotree plane num: 4169
+I0928 15:08:07.989583 15288 STDesc.cpp:391] [Description] planes size:1105
+I0928 15:08:08.021150 15288 STDesc.cpp:402] [Description] corners size:25
+I0928 15:08:08.026193 15288 STDesc.cpp:407] [Description] stds size:1031
+I0928 15:08:08.473853 15288 STDesc.cpp:564] voxel_map size4236
+I0928 15:08:08.474228 15288 STDesc.cpp:575] iter_list size4236
+I0928 15:08:08.775094 15288 STDesc.cpp:589] init octotree plane num: 4236
+I0928 15:08:08.776424 15288 STDesc.cpp:391] [Description] planes size:1080
+I0928 15:08:08.797937 15288 STDesc.cpp:402] [Description] corners size:18
+I0928 15:08:08.800415 15288 STDesc.cpp:407] [Description] stds size:559
+I0928 15:08:09.197477 15288 STDesc.cpp:564] voxel_map size4248
+I0928 15:08:09.197953 15288 STDesc.cpp:575] iter_list size4248
+I0928 15:08:09.514874 15288 STDesc.cpp:589] init octotree plane num: 4248
+I0928 15:08:09.516482 15288 STDesc.cpp:391] [Description] planes size:1116
+I0928 15:08:09.545624 15288 STDesc.cpp:402] [Description] corners size:22
+I0928 15:08:09.549876 15288 STDesc.cpp:407] [Description] stds size:830
+I0928 15:08:09.998664 15288 STDesc.cpp:564] voxel_map size4323
+I0928 15:08:09.999130 15288 STDesc.cpp:575] iter_list size4323
+I0928 15:08:10.318825 15288 STDesc.cpp:589] init octotree plane num: 4323
+I0928 15:08:10.320760 15288 STDesc.cpp:391] [Description] planes size:1157
+I0928 15:08:10.342239 15288 STDesc.cpp:402] [Description] corners size:13
+I0928 15:08:10.343976 15288 STDesc.cpp:407] [Description] stds size:275
+I0928 15:

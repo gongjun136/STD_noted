@@ -1,4 +1,4 @@
-#include "include/STDesc.h"
+#include "include/STDesc2.h"
 
 /**
  * @brief 对点云进行体素下采样
@@ -239,13 +239,13 @@ bool attach_greater_sort(std::pair<double, int> a, std::pair<double, int> b)
 // 辅助函数：设置线段的属性
 void setLineProperties(visualization_msgs::Marker &m_line,
                        const std::string &frame_id,
-                       const std::string &line_type,
-                       const std::string &ns = "lines")
+                       const std::string &line_type
+                       )
 {
   m_line.type = visualization_msgs::Marker::LINE_LIST;
   m_line.action = visualization_msgs::Marker::ADD;
-  m_line.ns = ns;
-  m_line.scale.x = 0.25;
+  m_line.ns = "lines";
+  m_line.scale.x = 0.1;
   m_line.pose.orientation.w = 1.0;
   m_line.header.frame_id = frame_id;
 
@@ -287,6 +287,79 @@ void connectVertices(visualization_msgs::Marker &m_line,
 
   m_line.points.push_back(p1);
   m_line.points.push_back(p2);
+}
+
+void publish_std(const std::vector<STDesc> &stds,
+                 const ros::Publisher &std_publisher,
+                 const std::string &pcd_name,
+                 const std::string &frame_id)
+{
+  visualization_msgs::MarkerArray ma_line;
+  visualization_msgs::Marker m_line;
+
+  int max_pub_cnt = 0;
+
+  if (pcd_name == "source")
+  {
+    for (const auto &std : stds)
+    {
+      if (max_pub_cnt >= 100)
+      {
+        break;
+      }
+      // 使用绿色连接var.second的顶点
+      setLineProperties(m_line, frame_id, "green");
+      connectVertices(m_line, std.vertex_A_, std.vertex_B_);
+      ma_line.markers.push_back(m_line);
+      m_line.id++;
+
+      connectVertices(m_line, std.vertex_B_, std.vertex_C_);
+      ma_line.markers.push_back(m_line);
+      m_line.id++;
+
+      connectVertices(m_line, std.vertex_C_, std.vertex_A_);
+      ma_line.markers.push_back(m_line);
+      m_line.id++;
+
+      max_pub_cnt++;
+    }
+  }
+  else if (pcd_name == "target")
+  {
+    for (const auto &std : stds)
+    {
+      if (max_pub_cnt >= 100)
+      {
+        break;
+      }
+      // 使用绿色连接var.second的顶点
+      setLineProperties(m_line, frame_id, "white");
+      connectVertices(m_line, std.vertex_A_, std.vertex_B_);
+      ma_line.markers.push_back(m_line);
+      m_line.id++;
+
+      connectVertices(m_line, std.vertex_B_, std.vertex_C_);
+      ma_line.markers.push_back(m_line);
+      m_line.id++;
+
+      connectVertices(m_line, std.vertex_C_, std.vertex_A_);
+      ma_line.markers.push_back(m_line);
+      m_line.id++;
+
+      max_pub_cnt++;
+    }
+  }
+  else
+  {
+    LOG(ERROR) << "pcd_name is error";
+    return;
+  }
+  // 发布线段
+  std_publisher.publish(ma_line);
+  m_line.id = 0;
+  ma_line.markers.clear();
+
+  return;
 }
 
 // 主函数：发布STD描述符的三个点之间的连接线
@@ -383,14 +456,16 @@ void STDescManager::GenerateSTDescs(
 {
 
   // step1, 体素化和平面提取
-  LOG(INFO)<<"Key frame size:"<<input_cloud->size();
   std::unordered_map<VOXEL_LOC, OctoTree *> voxel_map; // 存储每个体素对应的OctoTree
   init_voxel_map(input_cloud, voxel_map);
   pcl::PointCloud<pcl::PointXYZINormal>::Ptr plane_cloud(
       new pcl::PointCloud<pcl::PointXYZINormal>);
-  getPlane(voxel_map, plane_cloud);
+  pcl::PointCloud<pcl::PointXYZI>::Ptr plane_pointcloud(
+      new pcl::PointCloud<pcl::PointXYZI>);
+  getPlane(voxel_map, plane_cloud, plane_pointcloud);
   LOG(INFO) << "[Description] planes size:" << plane_cloud->size();
   plane_cloud_vec_.push_back(plane_cloud);
+  plane_pointcloud_vec_.push_back(plane_pointcloud);
 
   // step2, 建立体素地图中平面之间的联系
   build_connection(voxel_map);
@@ -400,12 +475,13 @@ void STDescManager::GenerateSTDescs(
       new pcl::PointCloud<pcl::PointXYZINormal>);
   corner_extractor(voxel_map, input_cloud, corner_points);
   corner_cloud_vec_.push_back(corner_points);
-  LOG(INFO)<< "[Description] corners size:" << corner_points->size();
+  // std::cout << "[Description] corners size:" << corner_points->size()
+  //           << std::endl;
 
   // step4, 生成STD
   stds_vec.clear();
   build_stdesc(corner_points, stds_vec);
-  LOG(INFO) << "[Description] stds size:" << stds_vec.size() ;
+  // std::cout << "[Description] stds size:" << stds_vec.size() << std::endl;
 
   // step5, 清理内存
   for (auto iter = voxel_map.begin(); iter != voxel_map.end(); iter++)
@@ -431,7 +507,7 @@ void STDescManager::SearchLoop(
   // 检查是否生成描述符
   if (stds_vec.size() == 0)
   {
-    ROS_ERROR_STREAM("No STDescs!");
+    LOG(ERROR)<<"No STDescs!";
     loop_result = std::pair<int, double>(-1, 0);
     return;
   }
@@ -440,6 +516,7 @@ void STDescManager::SearchLoop(
   std::vector<STDMatchList> candidate_matcher_vec;
   candidate_selector(stds_vec, candidate_matcher_vec);
 
+  LOG(INFO)<<"候选者数："<<candidate_matcher_vec.size();
   auto t2 = std::chrono::high_resolution_clock::now();
 
   // step2, 从粗略的候选者中找到最好的候选者，得分为best_score
@@ -484,6 +561,32 @@ void STDescManager::SearchLoop(
     return;
   }
 }
+// Print function for STDesc
+void printSTDesc(const STDesc& desc) {
+    LOG(INFO) << "Side Length: " << desc.side_length_.transpose() ;
+    LOG(INFO) << "Angle: " << desc.angle_.transpose() ;
+    LOG(INFO) << "Center: " << desc.center_.transpose() ;
+    LOG(INFO) << "Frame ID: " << desc.frame_id_ ;
+    LOG(INFO) << "Vertex A: " << desc.vertex_A_.transpose() ;
+    LOG(INFO) << "Vertex B: " << desc.vertex_B_.transpose() ;
+    LOG(INFO) << "Vertex C: " << desc.vertex_C_.transpose() ;
+    LOG(INFO) << "Vertex Attached: " << desc.vertex_attached_.transpose() ;
+}
+// Function to print the database content
+void printDatabase(const std::unordered_map<STDesc_LOC, std::vector<STDesc>>& data_base_) {
+    for (const auto& pair : data_base_) {
+        const STDesc_LOC& key = pair.first;
+        const std::vector<STDesc>& values = pair.second;
+
+        LOG(INFO) << "Key [x: " << key.x << ", y: " << key.y << ", z: " << key.z << "]";
+        LOG(INFO) << "Values:";
+        for (const auto& value : values) {
+            printSTDesc(value);
+            LOG(INFO)<< "-----";
+        }
+        LOG(INFO) << "========\n";
+    }
+}
 
 void STDescManager::AddSTDescs(const std::vector<STDesc> &stds_vec)
 {
@@ -513,7 +616,9 @@ void STDescManager::AddSTDescs(const std::vector<STDesc> &stds_vec)
       descriptor_vec.push_back(single_std);
       data_base_[position] = descriptor_vec;
     }
+
   }
+  // printDatabase(data_base_);
   return;
 }
 
@@ -562,7 +667,6 @@ void STDescManager::init_voxel_map(
       voxel_map[position]->voxel_points_.push_back(p_c);
     }
   }
-  LOG(INFO) << "voxel_map size" << voxel_map.size();
   // 遍历体素地图，初始化每个体素中的OctoTree
   std::vector<std::unordered_map<VOXEL_LOC, OctoTree *>::iterator> iter_list;
   std::vector<size_t> index;
@@ -573,7 +677,6 @@ void STDescManager::init_voxel_map(
     i++;
     iter_list.push_back(iter);
   }
-  LOG(INFO) << "iter_list size" << iter_list.size();
   // speed up initialization
   // #ifdef MP_EN
   //   omp_set_num_threads(MP_PROC_NUM);
@@ -581,13 +684,10 @@ void STDescManager::init_voxel_map(
   // #pragma omp parallel for
   // #endif
   // 遍历索引列表，为每个OctoTree进行初始化
-  int cout = 0;
   for (int i = 0; i < index.size(); i++)
   {
     iter_list[i]->second->init_octo_tree();
-    cout++;
   }
-  LOG(INFO) << "init octotree plane num: " << cout;
   // std::cout << "voxel num:" << index.size() << std::endl;
   // std::for_each(
   //     std::execution::par_unseq, index.begin(), index.end(),
@@ -713,8 +813,11 @@ void STDescManager::build_connection(
  */
 void STDescManager::getPlane(
     const std::unordered_map<VOXEL_LOC, OctoTree *> &voxel_map,
-    pcl::PointCloud<pcl::PointXYZINormal>::Ptr &plane_cloud)
+    pcl::PointCloud<pcl::PointXYZINormal>::Ptr &plane_cloud,
+    pcl::PointCloud<pcl::PointXYZI>::Ptr &plane_pointcloud)
 {
+  // pcl::PointCloud<pcl::PointXYZI>::Ptr plane_pointcloud(new pcl::PointCloud<pcl::PointXYZI>);
+
   // 遍历提供的体素地图
   for (auto iter = voxel_map.begin(); iter != voxel_map.end(); iter++)
   {
@@ -733,6 +836,17 @@ void STDescManager::getPlane(
       pi.normal_z = iter->second->plane_ptr_->normal_[2];
       // 将此点添加到输出点云中
       plane_cloud->push_back(pi);
+
+      // 提取当前体素的所有点并将其添加到plane_cloud中
+      const std::vector<Eigen::Vector3d> &voxel_points = iter->second->voxel_points_;
+      for (const Eigen::Vector3d &point : voxel_points)
+      {
+        pcl::PointXYZI voxel_point;
+        voxel_point.x = static_cast<float>(point[0]);
+        voxel_point.y = static_cast<float>(point[1]);
+        voxel_point.z = static_cast<float>(point[2]);
+        plane_pointcloud->push_back(voxel_point);
+      }
     }
   }
 }
@@ -905,7 +1019,6 @@ void STDescManager::corner_extractor(
           prepare_corner_points->points[attach_vec[i].second]);
     }
   }
-
 }
 
 /**
@@ -2055,27 +2168,27 @@ void STDescManager::PlaneGeomrtricIcp(
 }
 
 /**
- * @brief OctoTree类的方法，用于初始化平面plane_ptr_
+ * @brief OctoTree类的方法，用于初始化平面
  *
  */
 void OctoTree::init_plane()
 {
   // 初始化变量
-  plane_ptr_->covariance_ = Eigen::Matrix3d::Zero(); // 初始化协方差矩阵为零矩阵
-  plane_ptr_->center_ = Eigen::Vector3d::Zero();     // 初始化中心为零向量
-  plane_ptr_->normal_ = Eigen::Vector3d::Zero();     // 初始化法线为零向量
-  plane_ptr_->points_size_ = voxel_points_.size();   // 设置点集的大小
-  plane_ptr_->radius_ = 0;                           // 初始化半径为0
-  // 计算体素内点集的协方差矩阵和中心点
+  plane_ptr_->covariance_ = Eigen::Matrix3d::Zero();
+  plane_ptr_->center_ = Eigen::Vector3d::Zero();
+  plane_ptr_->normal_ = Eigen::Vector3d::Zero();
+  plane_ptr_->points_size_ = voxel_points_.size();
+  plane_ptr_->radius_ = 0;
+  // 计算点云的协方差矩阵和中心点
   for (auto pi : voxel_points_)
   {
-    plane_ptr_->covariance_ += pi * pi.transpose(); // 累加协方差
-    plane_ptr_->center_ += pi;                      // 累加中心
+    plane_ptr_->covariance_ += pi * pi.transpose();
+    plane_ptr_->center_ += pi;
   }
   plane_ptr_->center_ = plane_ptr_->center_ / plane_ptr_->points_size_;
   plane_ptr_->covariance_ =
       plane_ptr_->covariance_ / plane_ptr_->points_size_ -
-      plane_ptr_->center_ * plane_ptr_->center_.transpose(); // 点集数据的协方差矩阵
+      plane_ptr_->center_ * plane_ptr_->center_.transpose();
 
   // 对协方差矩阵进行特征值分解
   Eigen::EigenSolver<Eigen::Matrix3d> es(plane_ptr_->covariance_);
@@ -2092,22 +2205,16 @@ void OctoTree::init_plane()
   if (evalsReal(evalsMin) < config_setting_.plane_detection_thre_)
   {
     // 如果是，则认为点云数据分布在一个平面上，并计算该平面的属性
-    plane_ptr_->normal_ = evecs.real().col(evalsMin);   // 设置平面法线
-    plane_ptr_->min_eigen_value_ = evalsReal(evalsMin); // 设置最小特征值
-    // 最大的特征值对应的特征向量表示点云分布的主要方向，而特征值本身表示在这个方向上的变化或分布程度。
-    // 平方根的使用可能是为了给出一个更有实际意义的量度，或者使其与某些几何解释（如椭球的半径）相匹配。
-    plane_ptr_->radius_ = sqrt(evalsReal(evalsMax)); // 设置平面半径
+    plane_ptr_->normal_ << evecs.real()(0, evalsMin), evecs.real()(1, evalsMin),
+        evecs.real()(2, evalsMin);
+    plane_ptr_->min_eigen_value_ = evalsReal(evalsMin);
+    plane_ptr_->radius_ = sqrt(evalsReal(evalsMax));
     plane_ptr_->is_plane_ = true;
 
     // 计算平面的截距和其他属性
-    
-    // 用平面方程 ax + by + cz + d = 0 计算截距 d
-    // 使用已知的平面上的点（平面的中心或质心）和平面的法线进行计算
-    // d = - (a * x_center + b * y_center + c * z_center)
     plane_ptr_->intercept_ = -(plane_ptr_->normal_(0) * plane_ptr_->center_(0) +
                                plane_ptr_->normal_(1) * plane_ptr_->center_(1) +
                                plane_ptr_->normal_(2) * plane_ptr_->center_(2));
-    //平面中心+平面法向量
     plane_ptr_->p_center_.x = plane_ptr_->center_(0);
     plane_ptr_->p_center_.y = plane_ptr_->center_(1);
     plane_ptr_->p_center_.z = plane_ptr_->center_(2);

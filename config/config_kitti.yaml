@@ -3,29 +3,29 @@ ds_size: 0.25
 maximum_corner_num: 100
 
 # key points
-plane_detection_thre: 0.01
-plane_merge_normal_thre: 0.2
+plane_detection_thre: 0.01          # 体素点集平面检测阈值
+plane_merge_normal_thre: 0.2        # 平面是否连接的法向量范数阈值
 voxel_size: 2.0
-voxel_init_num: 10
+voxel_init_num: 10                  # 体素初始化最小点数
 proj_image_resolution: 0.5
-proj_dis_min: 0
-proj_dis_max: 5
-corner_thre: 10
+proj_dis_min: 0                     # 3D点与投影平面最小距离阈值
+proj_dis_max: 5                     # 3D点与投影平面最大距离阈值
+corner_thre: 10                     # 梯度大于此阈值，则认为这是一个角点
 
 # std descriptor
-descriptor_near_num: 10
-descriptor_min_len: 2
-descriptor_max_len: 50
-non_max_suppression_radius: 2
-std_side_resolution: 0.2
+descriptor_near_num: 10             # 构建std时最近邻搜索数量
+descriptor_min_len: 2               # std边长最小阈值
+descriptor_max_len: 50              # std边长最大阈值
+non_max_suppression_radius: 2       # 查找其半径内的其他角点，如果当前角点的强度小于任何邻居角点的强度，则将其标记为不保留
+std_side_resolution: 0.2            # 
 
 # candidate search
-skip_near_num: 50
-candidate_num: 50
-sub_frame_num: 10
-vertex_diff_threshold: 0.5
-rough_dis_threshold: 0.01
-normal_threshold: 0.2
-dis_threshold: 0.5
-icp_threshold: 0.4
+skip_near_num: 50                     # 闭环关键帧数距离
+candidate_num: 50                     # 最大候选帧数量
+sub_frame_num: 10                     # 检测帧的帧数差
+vertex_diff_threshold: 0.5            # 顶点强度的差异最大阈值
+rough_dis_threshold: 0.01             # 匹配距离的最大阈值
+normal_threshold: 0.2                 # 闭环几何验证的平面法向量差异最大阈值
+dis_threshold: 0.5                    # 闭环几何验证的点到平面的距离最大阈值
+icp_threshold: 0.4                    #
 

@@ -28,6 +28,10 @@ int findPoseIndexUsingTime(std::vector<double> &time_list, double &time) {
 int main(int argc, char **argv) {
   ros::init(argc, argv, "demo_kitti");
   ros::NodeHandle nh;
+  google::InitGoogleLogging(argv[0]);
+  FLAGS_log_dir = "/home/gj/catkin_ws_STD/src/STD/logs/";
+  FLAGS_alsologtostderr = 1;
+
   std::string bag_path = "";
   std::string pose_path = "";
   nh.param<std::string>("bag_path", bag_path, "");
@@ -103,7 +107,9 @@ int main(int argc, char **argv) {
           pv = rotation * pv + translation;
           cloud.points[i] = vec2point(pv);
         }
+        LOG(INFO) << "raw pointcloud size:" << cloud.size();
         down_sampling_voxel(cloud, config_setting.ds_size_);
+        LOG(INFO) << "down_sampling_voxel size:" << cloud.size();
         for (auto pv : cloud.points) {
           temp_cloud->points.push_back(pv);
         }

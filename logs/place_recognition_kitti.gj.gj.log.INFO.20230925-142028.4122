@@ -1,0 +1,359 @@
+Log file created at: 2023/09/25 14:20:28
+Running on machine: gj
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0925 14:20:28.010478  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126956
+I0925 14:20:28.035548  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25918
+I0925 14:20:28.203397  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127058
+I0925 14:20:28.229074  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26049
+I0925 14:20:28.372232  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127195
+I0925 14:20:28.394827  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25983
+I0925 14:20:28.539889  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127198
+I0925 14:20:28.560371  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25759
+I0925 14:20:28.703394  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127142
+I0925 14:20:28.723049  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25684
+I0925 14:20:28.863694  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126999
+I0925 14:20:28.885336  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25729
+I0925 14:20:29.029094  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126987
+I0925 14:20:29.054581  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25951
+I0925 14:20:29.202560  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127070
+I0925 14:20:29.227932  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26185
+I0925 14:20:29.369936  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126989
+I0925 14:20:29.389818  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26536
+I0925 14:20:29.531558  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126880
+I0925 14:20:29.552356  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26973
+I0925 14:20:29.687306  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126924
+I0925 14:20:29.708545  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:27481
+I0925 14:20:29.715299  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:20:29.715343  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000010.bin
+I0925 14:20:29.715348  4122 place_recognition_kitti.cpp:135] Key Frame id:0, cloud size: 288248
+I0925 14:20:29.801968  4122 STDesc.cpp:565] voxel_map size2345
+I0925 14:20:29.802191  4122 STDesc.cpp:576] iter_list size2345
+I0925 14:20:30.473124  4122 STDesc.cpp:590] init octotree plane num: 2345
+I0925 14:20:30.473954  4122 STDesc.cpp:391] [Description] planes size:1072
+I0925 14:20:31.467216  4122 place_recognition_kitti.cpp:144] STDs num:2152
+I0925 14:20:31.630278  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126802
+I0925 14:20:31.655910  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:27571
+I0925 14:20:31.789368  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126678
+I0925 14:20:31.811156  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:27739
+I0925 14:20:31.947773  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126557
+I0925 14:20:31.969774  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:27717
+I0925 14:20:32.101009  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126461
+I0925 14:20:32.122217  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:27764
+I0925 14:20:32.254779  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126353
+I0925 14:20:32.275518  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:27746
+I0925 14:20:32.405982  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126129
+I0925 14:20:32.426818  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:27666
+I0925 14:20:32.557107  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126298
+I0925 14:20:32.581637  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:27540
+I0925 14:20:32.718578  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126217
+I0925 14:20:32.739277  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:27243
+I0925 14:20:32.879317  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126224
+I0925 14:20:32.900965  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26911
+I0925 14:20:33.032105  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126315
+I0925 14:20:33.054919  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:27073
+I0925 14:20:33.055352  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:20:33.055382  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000020.bin
+I0925 14:20:33.055387  4122 place_recognition_kitti.cpp:135] Key Frame id:1, cloud size: 274970
+I0925 14:20:33.138847  4122 STDesc.cpp:565] voxel_map size2582
+I0925 14:20:33.139089  4122 STDesc.cpp:576] iter_list size2582
+I0925 14:20:33.803107  4122 STDesc.cpp:590] init octotree plane num: 2582
+I0925 14:20:33.803879  4122 STDesc.cpp:391] [Description] planes size:1094
+I0925 14:20:34.816063  4122 place_recognition_kitti.cpp:144] STDs num:2145
+I0925 14:20:34.979852  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126212
+I0925 14:20:35.002426  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26950
+I0925 14:20:35.130546  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126402
+I0925 14:20:35.154320  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26669
+I0925 14:20:35.284759  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126494
+I0925 14:20:35.309978  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26444
+I0925 14:20:35.445711  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126564
+I0925 14:20:35.467571  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25838
+I0925 14:20:35.601606  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126663
+I0925 14:20:35.622241  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25150
+I0925 14:20:35.753283  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126779
+I0925 14:20:35.774422  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:24407
+I0925 14:20:35.907325  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126816
+I0925 14:20:35.928912  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:24049
+I0925 14:20:36.060262  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126907
+I0925 14:20:36.081990  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23720
+I0925 14:20:36.213366  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127025
+I0925 14:20:36.234608  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23409
+I0925 14:20:36.368896  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127145
+I0925 14:20:36.390091  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:22941
+I0925 14:20:36.390497  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:20:36.390527  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000030.bin
+I0925 14:20:36.390532  4122 place_recognition_kitti.cpp:135] Key Frame id:2, cloud size: 249577
+I0925 14:20:36.465615  4122 STDesc.cpp:565] voxel_map size2499
+I0925 14:20:36.465822  4122 STDesc.cpp:576] iter_list size2499
+I0925 14:20:37.089018  4122 STDesc.cpp:590] init octotree plane num: 2499
+I0925 14:20:37.089846  4122 STDesc.cpp:391] [Description] planes size:1062
+I0925 14:20:37.979928  4122 place_recognition_kitti.cpp:144] STDs num:2200
+I0925 14:20:38.130015  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127160
+I0925 14:20:38.152956  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:22402
+I0925 14:20:38.287314  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127264
+I0925 14:20:38.307370  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:21822
+I0925 14:20:38.437256  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127335
+I0925 14:20:38.458734  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:21224
+I0925 14:20:38.596611  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127351
+I0925 14:20:38.616652  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20873
+I0925 14:20:38.758235  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127361
+I0925 14:20:38.777742  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20385
+I0925 14:20:38.911711  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127276
+I0925 14:20:38.930557  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20134
+I0925 14:20:39.069169  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127214
+I0925 14:20:39.090827  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20123
+I0925 14:20:39.221558  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127061
+I0925 14:20:39.240346  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:19999
+I0925 14:20:39.379065  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126842
+I0925 14:20:39.397544  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20064
+I0925 14:20:39.529202  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126362
+I0925 14:20:39.550343  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20170
+I0925 14:20:39.550668  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:20:39.550690  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000040.bin
+I0925 14:20:39.550694  4122 place_recognition_kitti.cpp:135] Key Frame id:3, cloud size: 207196
+I0925 14:20:39.616761  4122 STDesc.cpp:565] voxel_map size2097
+I0925 14:20:39.616950  4122 STDesc.cpp:576] iter_list size2097
+I0925 14:20:40.143313  4122 STDesc.cpp:590] init octotree plane num: 2097
+I0925 14:20:40.144160  4122 STDesc.cpp:391] [Description] planes size:901
+I0925 14:20:40.737253  4122 place_recognition_kitti.cpp:144] STDs num:2174
+I0925 14:20:40.886235  4122 place_recognition_kitti.cpp:122] raw pointcloud size:125998
+I0925 14:20:40.907896  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20400
+I0925 14:20:41.042687  4122 place_recognition_kitti.cpp:122] raw pointcloud size:125348
+I0925 14:20:41.062139  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20470
+I0925 14:20:41.194006  4122 place_recognition_kitti.cpp:122] raw pointcloud size:124559
+I0925 14:20:41.215442  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20657
+I0925 14:20:41.345629  4122 place_recognition_kitti.cpp:122] raw pointcloud size:124069
+I0925 14:20:41.368412  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20587
+I0925 14:20:41.506074  4122 place_recognition_kitti.cpp:122] raw pointcloud size:123174
+I0925 14:20:41.530738  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20512
+I0925 14:20:41.683310  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122343
+I0925 14:20:41.702492  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20632
+I0925 14:20:41.833004  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121987
+I0925 14:20:41.856405  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20984
+I0925 14:20:41.981851  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121559
+I0925 14:20:42.000873  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20987
+I0925 14:20:42.128659  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121895
+I0925 14:20:42.148175  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20704
+I0925 14:20:42.291082  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122107
+I0925 14:20:42.312088  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20525
+I0925 14:20:42.312454  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:20:42.312481  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000050.bin
+I0925 14:20:42.312505  4122 place_recognition_kitti.cpp:135] Key Frame id:4, cloud size: 206458
+I0925 14:20:42.377313  4122 STDesc.cpp:565] voxel_map size2053
+I0925 14:20:42.377605  4122 STDesc.cpp:576] iter_list size2053
+I0925 14:20:42.897351  4122 STDesc.cpp:590] init octotree plane num: 2053
+I0925 14:20:42.898200  4122 STDesc.cpp:391] [Description] planes size:867
+I0925 14:20:43.516026  4122 place_recognition_kitti.cpp:144] STDs num:2156
+I0925 14:20:43.667563  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122225
+I0925 14:20:43.688973  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20359
+I0925 14:20:43.817968  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121972
+I0925 14:20:43.836032  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20009
+I0925 14:20:43.972084  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121807
+I0925 14:20:43.992589  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:19633
+I0925 14:20:44.121423  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121697
+I0925 14:20:44.140995  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:19756
+I0925 14:20:44.266173  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122084
+I0925 14:20:44.285697  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:19948
+I0925 14:20:44.421633  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122591
+I0925 14:20:44.440686  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20112
+I0925 14:20:44.575567  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122953
+I0925 14:20:44.596470  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20130
+I0925 14:20:44.759541  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122885
+I0925 14:20:44.779749  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20146
+I0925 14:20:44.907871  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122618
+I0925 14:20:44.927687  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20170
+I0925 14:20:45.053926  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122402
+I0925 14:20:45.073726  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20122
+I0925 14:20:45.074146  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:20:45.074177  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000060.bin
+I0925 14:20:45.074201  4122 place_recognition_kitti.cpp:135] Key Frame id:5, cloud size: 200385
+I0925 14:20:45.134518  4122 STDesc.cpp:565] voxel_map size2002
+I0925 14:20:45.134693  4122 STDesc.cpp:576] iter_list size2002
+I0925 14:20:45.621624  4122 STDesc.cpp:590] init octotree plane num: 2002
+I0925 14:20:45.622298  4122 STDesc.cpp:391] [Description] planes size:770
+I0925 14:20:46.189123  4122 place_recognition_kitti.cpp:144] STDs num:2058
+I0925 14:20:46.345938  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122374
+I0925 14:20:46.365903  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20198
+I0925 14:20:46.499233  4122 place_recognition_kitti.cpp:122] raw pointcloud size:123061
+I0925 14:20:46.520215  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20154
+I0925 14:20:46.660372  4122 place_recognition_kitti.cpp:122] raw pointcloud size:123402
+I0925 14:20:46.680145  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20320
+I0925 14:20:46.807581  4122 place_recognition_kitti.cpp:122] raw pointcloud size:123450
+I0925 14:20:46.826540  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20443
+I0925 14:20:46.960608  4122 place_recognition_kitti.cpp:122] raw pointcloud size:123204
+I0925 14:20:46.981056  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20593
+I0925 14:20:47.111295  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122626
+I0925 14:20:47.131481  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20571
+I0925 14:20:47.258692  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122188
+I0925 14:20:47.281131  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20841
+I0925 14:20:47.416777  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121942
+I0925 14:20:47.437168  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:20979
+I0925 14:20:47.585669  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121617
+I0925 14:20:47.606444  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:21105
+I0925 14:20:47.745501  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121140
+I0925 14:20:47.766625  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:21549
+I0925 14:20:47.766979  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:20:47.767004  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000070.bin
+I0925 14:20:47.767007  4122 place_recognition_kitti.cpp:135] Key Frame id:6, cloud size: 206753
+I0925 14:20:47.828986  4122 STDesc.cpp:565] voxel_map size1974
+I0925 14:20:47.829162  4122 STDesc.cpp:576] iter_list size1974
+I0925 14:20:48.329921  4122 STDesc.cpp:590] init octotree plane num: 1974
+I0925 14:20:48.330595  4122 STDesc.cpp:391] [Description] planes size:739
+I0925 14:20:48.960585  4122 place_recognition_kitti.cpp:144] STDs num:2123
+I0925 14:20:49.105546  4122 place_recognition_kitti.cpp:122] raw pointcloud size:120966
+I0925 14:20:49.126433  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:21901
+I0925 14:20:49.255236  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121029
+I0925 14:20:49.275820  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:22153
+I0925 14:20:49.403733  4122 place_recognition_kitti.cpp:122] raw pointcloud size:120751
+I0925 14:20:49.426796  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:22589
+I0925 14:20:49.555752  4122 place_recognition_kitti.cpp:122] raw pointcloud size:120547
+I0925 14:20:49.578225  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:22868
+I0925 14:20:49.709497  4122 place_recognition_kitti.cpp:122] raw pointcloud size:120083
+I0925 14:20:49.732275  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:22994
+I0925 14:20:49.866796  4122 place_recognition_kitti.cpp:122] raw pointcloud size:120458
+I0925 14:20:49.888679  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23204
+I0925 14:20:50.016613  4122 place_recognition_kitti.cpp:122] raw pointcloud size:120642
+I0925 14:20:50.036643  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23473
+I0925 14:20:50.168198  4122 place_recognition_kitti.cpp:122] raw pointcloud size:120732
+I0925 14:20:50.189092  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23668
+I0925 14:20:50.318353  4122 place_recognition_kitti.cpp:122] raw pointcloud size:120846
+I0925 14:20:50.337525  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23716
+I0925 14:20:50.470314  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121004
+I0925 14:20:50.494539  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23896
+I0925 14:20:50.494904  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:20:50.494927  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000080.bin
+I0925 14:20:50.494946  4122 place_recognition_kitti.cpp:135] Key Frame id:7, cloud size: 230462
+I0925 14:20:50.565340  4122 STDesc.cpp:565] voxel_map size2085
+I0925 14:20:50.565533  4122 STDesc.cpp:576] iter_list size2085
+I0925 14:20:51.117154  4122 STDesc.cpp:590] init octotree plane num: 2085
+I0925 14:20:51.117966  4122 STDesc.cpp:391] [Description] planes size:829
+I0925 14:20:51.767139  4122 place_recognition_kitti.cpp:144] STDs num:2184
+I0925 14:20:51.909682  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121107
+I0925 14:20:51.931820  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:24023
+I0925 14:20:52.064957  4122 place_recognition_kitti.cpp:122] raw pointcloud size:121459
+I0925 14:20:52.088817  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:24266
+I0925 14:20:52.244953  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122040
+I0925 14:20:52.267634  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:24060
+I0925 14:20:52.398674  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122305
+I0925 14:20:52.420519  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23852
+I0925 14:20:52.555606  4122 place_recognition_kitti.cpp:122] raw pointcloud size:122832
+I0925 14:20:52.578724  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23588
+I0925 14:20:52.714082  4122 place_recognition_kitti.cpp:122] raw pointcloud size:123155
+I0925 14:20:52.736431  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23465
+I0925 14:20:52.870438  4122 place_recognition_kitti.cpp:122] raw pointcloud size:123400
+I0925 14:20:52.891461  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23120
+I0925 14:20:53.025300  4122 place_recognition_kitti.cpp:122] raw pointcloud size:123470
+I0925 14:20:53.049871  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23002
+I0925 14:20:53.181890  4122 place_recognition_kitti.cpp:122] raw pointcloud size:123889
+I0925 14:20:53.204969  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23105
+I0925 14:20:53.336006  4122 place_recognition_kitti.cpp:122] raw pointcloud size:124046
+I0925 14:20:53.361940  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23281
+I0925 14:20:53.362402  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:20:53.362434  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000090.bin
+I0925 14:20:53.362439  4122 place_recognition_kitti.cpp:135] Key Frame id:8, cloud size: 235762
+I0925 14:20:53.435640  4122 STDesc.cpp:565] voxel_map size2078
+I0925 14:20:53.435886  4122 STDesc.cpp:576] iter_list size2078
+I0925 14:20:53.997563  4122 STDesc.cpp:590] init octotree plane num: 2078
+I0925 14:20:53.998255  4122 STDesc.cpp:391] [Description] planes size:860
+I0925 14:20:54.772058  4122 place_recognition_kitti.cpp:144] STDs num:2189
+I0925 14:20:54.916005  4122 place_recognition_kitti.cpp:122] raw pointcloud size:124173
+I0925 14:20:54.937206  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23414
+I0925 14:20:55.071424  4122 place_recognition_kitti.cpp:122] raw pointcloud size:124532
+I0925 14:20:55.093947  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23614
+I0925 14:20:55.232983  4122 place_recognition_kitti.cpp:122] raw pointcloud size:124895
+I0925 14:20:55.258370  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23770
+I0925 14:20:55.389613  4122 place_recognition_kitti.cpp:122] raw pointcloud size:125143
+I0925 14:20:55.411705  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23842
+I0925 14:20:55.547744  4122 place_recognition_kitti.cpp:122] raw pointcloud size:125525
+I0925 14:20:55.571382  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23800
+I0925 14:20:55.727628  4122 place_recognition_kitti.cpp:122] raw pointcloud size:125764
+I0925 14:20:55.751576  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23818
+I0925 14:20:55.904647  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126023
+I0925 14:20:55.926491  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23567
+I0925 14:20:56.061247  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126151
+I0925 14:20:56.083997  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23379
+I0925 14:20:56.216235  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126273
+I0925 14:20:56.238045  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23251
+I0925 14:20:56.370200  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126335
+I0925 14:20:56.392467  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23207
+I0925 14:20:56.392877  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:20:56.392901  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000100.bin
+I0925 14:20:56.392920  4122 place_recognition_kitti.cpp:135] Key Frame id:9, cloud size: 235662
+I0925 14:20:56.465039  4122 STDesc.cpp:565] voxel_map size1845
+I0925 14:20:56.465279  4122 STDesc.cpp:576] iter_list size1845
+I0925 14:20:57.025172  4122 STDesc.cpp:590] init octotree plane num: 1845
+I0925 14:20:57.025875  4122 STDesc.cpp:391] [Description] planes size:820
+I0925 14:20:57.748433  4122 place_recognition_kitti.cpp:144] STDs num:2034
+I0925 14:20:57.901188  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126492
+I0925 14:20:57.923210  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23067
+I0925 14:20:58.068073  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126675
+I0925 14:20:58.090272  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23022
+I0925 14:20:58.232657  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126687
+I0925 14:20:58.258096  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23074
+I0925 14:20:58.394464  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126803
+I0925 14:20:58.419852  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23013
+I0925 14:20:58.557963  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126773
+I0925 14:20:58.581247  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23269
+I0925 14:20:58.712538  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126816
+I0925 14:20:58.735630  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23524
+I0925 14:20:58.879333  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126968
+I0925 14:20:58.900728  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23713
+I0925 14:20:59.035717  4122 place_recognition_kitti.cpp:122] raw pointcloud size:126991
+I0925 14:20:59.060110  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:23851
+I0925 14:20:59.204149  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127058
+I0925 14:20:59.226940  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:24234
+I0925 14:20:59.362128  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127084
+I0925 14:20:59.387984  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:24645
+I0925 14:20:59.388433  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:20:59.388469  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000110.bin
+I0925 14:20:59.388473  4122 place_recognition_kitti.cpp:135] Key Frame id:10, cloud size: 235412
+I0925 14:20:59.457878  4122 STDesc.cpp:565] voxel_map size1841
+I0925 14:20:59.458035  4122 STDesc.cpp:576] iter_list size1841
+I0925 14:21:00.020817  4122 STDesc.cpp:590] init octotree plane num: 1841
+I0925 14:21:00.021533  4122 STDesc.cpp:391] [Description] planes size:821
+I0925 14:21:00.769315  4122 place_recognition_kitti.cpp:144] STDs num:2090
+I0925 14:21:00.994349  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127054
+I0925 14:21:01.017568  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:24735
+I0925 14:21:01.178197  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127119
+I0925 14:21:01.201445  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25048
+I0925 14:21:01.354046  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127160
+I0925 14:21:01.375489  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25129
+I0925 14:21:01.587281  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127181
+I0925 14:21:01.608978  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25229
+I0925 14:21:01.745121  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127158
+I0925 14:21:01.769446  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25276
+I0925 14:21:01.900717  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127216
+I0925 14:21:01.923930  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25353
+I0925 14:21:02.063333  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127226
+I0925 14:21:02.087411  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25582
+I0925 14:21:02.228425  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127173
+I0925 14:21:02.252969  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25585
+I0925 14:21:02.386606  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127266
+I0925 14:21:02.407292  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25587
+I0925 14:21:02.550477  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127335
+I0925 14:21:02.576463  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25667
+I0925 14:21:02.576864  4122 place_recognition_kitti.cpp:133] --------------
+I0925 14:21:02.576936  4122 place_recognition_kitti.cpp:134] /mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/0000000120.bin
+I0925 14:21:02.576941  4122 place_recognition_kitti.cpp:135] Key Frame id:11, cloud size: 253191
+I0925 14:21:02.678908  4122 STDesc.cpp:565] voxel_map size1966
+I0925 14:21:02.679286  4122 STDesc.cpp:576] iter_list size1966
+I0925 14:21:03.270817  4122 STDesc.cpp:590] init octotree plane num: 1966
+I0925 14:21:03.271601  4122 STDesc.cpp:391] [Description] planes size:853
+I0925 14:21:04.007055  4122 place_recognition_kitti.cpp:144] STDs num:2127
+I0925 14:21:04.161017  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127478
+I0925 14:21:04.183756  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:25805
+I0925 14:21:04.325894  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127452
+I0925 14:21:04.349956  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26057
+I0925 14:21:04.487556  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127434
+I0925 14:21:04.511637  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26138
+I0925 14:21:04.645854  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127324
+I0925 14:21:04.670488  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26220
+I0925 14:21:04.803675  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127341
+I0925 14:21:04.827265  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26399
+I0925 14:21:04.968132  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127331
+I0925 14:21:04.991106  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26766
+I0925 14:21:05.126117  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127207
+I0925 14:21:05.149741  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26666
+I0925 14:21:05.294314  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127070
+I0925 14:21:05.317751  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26838
+I0925 14:21:05.452075  4122 place_recognition_kitti.cpp:122] raw pointcloud size:127000
+I0925 14:21:05.478852  4122 place_recognition_kitti.cpp:124] down_sampling_voxel size:26996

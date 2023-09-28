@@ -84,15 +84,12 @@ typedef struct STDesc
 // plane structure for corner point extraction
 typedef struct Plane
 {
-  pcl::PointXYZINormal p_center_;       //平面中心+平面法向量
-  Eigen::Vector3d center_;     // 中心/质心
-  Eigen::Vector3d normal_;     // 点集法线
-  Eigen::Matrix3d covariance_; // 点集协方差
-  // 平面半径-最大的特征值的平方根
-  // 最大的特征值对应的特征向量表示点云分布的主要方向，而特征值本身表示在这个方向上的变化或分布程度。
-  // 平方根的使用可能是为了给出一个更有实际意义的量度，或者使其与某些几何解释（如椭球的半径）相匹配。
+  pcl::PointXYZINormal p_center_;
+  Eigen::Vector3d center_;
+  Eigen::Vector3d normal_;
+  Eigen::Matrix3d covariance_;
   float radius_ = 0;
-  float min_eigen_value_ = 1; // 协方差最小特征值
+  float min_eigen_value_ = 1;
   float intercept_ = 0;
   int id_ = 0;
   int sub_plane_num_ = 0;
@@ -191,8 +188,8 @@ class OctoTree
 {
 public:
   ConfigSetting config_setting_;
-  std::vector<Eigen::Vector3d> voxel_points_; // 当前体素的所有点
-  Plane *plane_ptr_;                          // 平面结构
+  std::vector<Eigen::Vector3d> voxel_points_;
+  Plane *plane_ptr_;
   int layer_;
   int octo_state_; // 0 is end of tree, 1 is not
   int merge_num_ = 0;
@@ -228,8 +225,8 @@ public:
     }
     plane_ptr_ = new Plane;
   }
-  void init_plane();     // init_octo_tree函数中的操作：初始化平面
-  void init_octo_tree(); // 初始化OctoTree
+  void init_plane();
+  void init_octo_tree();
 };
 
 void down_sampling_voxel(pcl::PointCloud<pcl::PointXYZI> &pl_feat,
@@ -247,6 +244,10 @@ double time_inc(std::chrono::_V2::system_clock::time_point &t_end,
 
 pcl::PointXYZI vec2point(const Eigen::Vector3d &vec);
 Eigen::Vector3d point2vec(const pcl::PointXYZI &pi);
+void publish_std(const std::vector<STDesc> &stds,
+                 const ros::Publisher &std_publisher,
+                 const std::string &pcd_name,
+                 const std::string &frame_id = "camera_init");
 
 void publish_std_pairs(const std::vector<std::pair<STDesc, STDesc>> &match_std_pairs,
                        const ros::Publisher &std_publisher,
@@ -329,6 +330,7 @@ public:
 
   // save all planes of key frame, required
   std::vector<pcl::PointCloud<pcl::PointXYZINormal>::Ptr> plane_cloud_vec_;
+  std::vector<pcl::PointCloud<pcl::PointXYZI>::Ptr> plane_pointcloud_vec_;
 
   /*Three main processing functions*/
 
@@ -353,8 +355,10 @@ public:
 
 private:
   /*Following are sub-processing functions*/
-  void setLineProperties(visualization_msgs::Marker &m_line, const std::string &frame_id, const std::string &line_type, const std::string &ns = "lines");
-
+  void setLineProperties(visualization_msgs::Marker &m_line,
+                         const std::string &frame_id,
+                         const std::string &line_type
+                        );
   void connectVertices(visualization_msgs::Marker &m_line, const Eigen::Vector3d &vertex1, const Eigen::Vector3d &vertex2);
 
   // voxelization and plane detection
@@ -366,7 +370,8 @@ private:
 
   // acquire planes from voxel_map
   void getPlane(const std::unordered_map<VOXEL_LOC, OctoTree *> &voxel_map,
-                pcl::PointCloud<pcl::PointXYZINormal>::Ptr &plane_cloud);
+                pcl::PointCloud<pcl::PointXYZINormal>::Ptr &plane_cloud,
+                pcl::PointCloud<pcl::PointXYZI>::Ptr &plane_pointcloud);
 
   // extract corner points from pre-build voxel map and clouds
   void

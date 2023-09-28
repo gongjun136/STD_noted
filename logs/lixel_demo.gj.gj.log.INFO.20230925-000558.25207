@@ -1,0 +1,15 @@
+Log file created at: 2023/09/25 00:05:58
+Running on machine: gj
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0925 00:05:58.475986 25207 lixel_demo.cpp:155] raw pointcloud size:31102
+I0925 00:05:58.497217 25207 lixel_demo.cpp:157] down_sampling_voxel size:31102
+I0925 00:05:58.498384 25207 lixel_demo.cpp:163] target point cloud id:0, cloud size: 31102
+I0925 00:05:58.625659 25207 STDesc2.cpp:466] [Description] planes size:107
+I0925 00:05:58.662532 25207 lixel_demo.cpp:170] target point cloud std size:503
+I0925 00:05:58.675573 25207 lixel_demo.cpp:210] raw pointcloud size:34814
+I0925 00:05:58.694845 25207 lixel_demo.cpp:212] down_sampling_voxel size:34814
+I0925 00:05:58.695927 25207 lixel_demo.cpp:217] source point cloud id :1, cloud size: 34814
+I0925 00:05:58.841261 25207 STDesc2.cpp:466] [Description] planes size:130
+I0925 00:05:58.871909 25207 lixel_demo.cpp:223] source point cloud std size:410
+I0925 00:05:58.876216 25207 STDesc2.cpp:519] 候选者数：0
+I0925 00:05:58.876312 25207 lixel_demo.cpp:237] loop std pair num :0

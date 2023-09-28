@@ -9,8 +9,8 @@
 		name="place_recognition_kitti" 
 		output="screen" 
 	/>
-  <param name="lidar_path" type="string" value = "/home/hyshan/dataset/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/"/>
-  <param name="pose_path" type="string" value = "/home/hyshan/dataset/STDesc_dataset/KITTI_dataset/KITTI_poses/kitti05.txt"/>
+  <param name="lidar_path" type="string" value = "/mnt/f/datasets/KITTI raw data/training/05/2011_09_30_drive_0018_sync/2011_09_30/2011_09_30_drive_0018_sync/velodyne_points/data/"/>
+  <param name="pose_path" type="string" value = "/mnt/f/datasets/KITTI raw data/training/STDesc_dataset/KITTI_dataset/KITTI_poses/kitti05.txt"/>
 
   <group if="$(arg rviz)">
     <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz" args="-d $(find std_detector)/rviz_cfg/demo.rviz" />
